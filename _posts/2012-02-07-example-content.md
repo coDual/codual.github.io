@@ -1,6 +1,10 @@
 ---
 layout: post
 title: Example content
+warnings:
+ - Spoilers de Dr. Jekyll & Mr. Hyde
+ - Otro aviso
+ - Otro más
 ---
 
 
