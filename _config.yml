@@ -1,0 +1,33 @@
+# Dependencies
+github: [metadata]
+kramdown:
+ input: GFM
+ hard_wrap: false
+gems:
+ - jekyll-coffeescript
+ - jekyll-paginate
+ - jekyll-feed
+
+keep_files: [".git"]
+
+# Permalinks
+permalink: pretty
+
+# Setup
+title: One Sharp
+tagline: 'A Jekyll theme'
+description: 'A blog'
+baseurl: /
+
+author:
+  name:           'Mark Otto'
+  url:            https://twitter.com/mdo
+
+paginate: 10
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      warnings: ""
