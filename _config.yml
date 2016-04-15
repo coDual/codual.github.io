@@ -19,9 +19,13 @@ tagline: 'A Jekyll theme'
 description: 'A blog'
 baseurl: /
 
-author:
-  name:           'Mark Otto'
-  url:            https://twitter.com/mdo
+authors:
+  psi:
+    name: Psi
+    link: /psi
+  m42:
+    name: M42
+    link: /m42
 
 paginate: 10
 
@@ -31,3 +35,4 @@ defaults:
       type: "posts"
     values:
       warnings: ""
+      lang: es
