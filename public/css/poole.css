@@ -351,8 +351,12 @@ tbody tr:nth-child(odd) th {
   color: #9a9a9a;
 }
 
+.post-license {
+  float:right;
+  color: #9a9a9a;
+}
+
 .post-authors {
-  padding-left: 2rem;
   margin-top: -.5rem;
   margin-bottom: 1rem;
   color: #9a9a9a;

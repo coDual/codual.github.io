@@ -34,23 +34,6 @@ html {
   }
 }
 
-/* Post attributes
- *
- * Post warnings and various others-
- */
-
-.warnings {
-  margin-bottom: 1rem;
-  padding: 1rem;
-  color: #717171;
-  background-color: #f9f9f9;
-  overflow: hidden;
-}
-
-.warnings img {
-  vertical-align: middle;
-  float:left;
-}
 
 /*
  * Sidebar
@@ -62,7 +45,6 @@ html {
 .sidebar {
   text-align: center;
   padding: 1rem 1rem;
-  background-color: #f9f9f9;
 }
 @media (min-width: 48em) {
   .sidebar {
@@ -77,7 +59,7 @@ html {
 
 /* Sidebar links */
 .sidebar a {
-  color: #C1292E;
+  color: #000;
 }
 
 /* About section */

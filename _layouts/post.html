@@ -6,7 +6,7 @@ layout: default
   <div class="post">
     <h1 class="post-title">{{ page.title }}</h1>
     <div class="post-data">
-    <span class="post-date">{{ page.date | date_to_string }}</span>
+    <span class="post-date">{{ page.date | date_to_string }}</span>  -
     <span class="post-authors">
       {% for author in page.authors %}
         {% assign authdata = site.authors[author] %}
@@ -19,13 +19,23 @@ layout: default
     <!-- Avisos de contenido -->
     {% if page.warnings != '' %}
     </br>
-    <div class="warnings">
-      <img src="{{ site.url }}/assets/warning.svg" alt="Avisos de contenido"/>:
+    <div class="message">
+      <abbr title="Aviso de contenido"><strong>CW</strong></abbr>:
       {% for warning in page.warnings %}
         {{ warning }}{% if forloop.last%}.{% else %},{% endif %}
       {% endfor %}
     </div>
     {% endif %}
     {{ content }}
+    <!--Licencia-->
+    <span class="post-license">
+    <span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text" property="dct:title" rel="dct:type">{{ page.title }}</span> por
+      {% for author in page.authors %}
+        {% assign authdata = site.authors[author] %}
+        {% if forloop.first %} {% elsif forloop.last %} y {% else %}, {% endif %}
+        <a href="{{ authdata.link }}">{{ authdata.name }}</a>
+      {% endfor %}
+      se distribuye bajo <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>.
+    </span>
   </div>
 </article>
