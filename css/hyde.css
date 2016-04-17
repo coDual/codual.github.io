@@ -50,8 +50,9 @@ html {
 .sidebar-about img {
   float: left;
   display:block;
-  margin-left: 4rem;
+  margin-left: 3rem;
 }
+
 @media (min-width: 48em) {
   .sidebar {
     position: fixed;
