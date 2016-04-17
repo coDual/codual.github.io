@@ -1,22 +1,18 @@
 # Dependencies
-github: [metadata]
-kramdown:
- input: GFM
- hard_wrap: false
 gems:
  - jekyll-coffeescript
  - jekyll-paginate
  - jekyll-feed
+ - jekyll-github-metadata
 
 keep_files: [".git"]
+repository: coDual/codual.github.io
 
 # Permalinks
 permalink: pretty
 
 # Setup
-title: One Sharp
-tagline: 'A Jekyll theme'
-description: 'A blog'
+title: coDual
 baseurl: /
 
 authors:
@@ -27,12 +23,11 @@ authors:
     name: M42
     link: /m42
 
-paginate: 10
+paginate: 5
 
 defaults:
   - scope:
       path: ""
       type: "posts"
     values:
-      warnings: ""
       lang: es
