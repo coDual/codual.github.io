@@ -46,16 +46,35 @@ html {
   text-align: center;
   padding: 1rem 1rem;
 }
+
+.sidebar-about img {
+  float: left;
+  display:block;
+  margin-left: 4rem;
+}
 @media (min-width: 48em) {
   .sidebar {
     position: fixed;
     top: 0;
     left: 0;
     bottom: 0;
-    width: 12rem;
+    width: 16rem;
     text-align: left;
   }
+
+  .sidebar-about img {
+    display:block;
+    margin:auto;
+    float:none;
+  }
+
+  .sidebar-nav {
+    margin-bottom: 1rem;
+    margin-left: 2rem;
+  }
 }
+
+
 
 /* Sidebar links */
 .sidebar a {
@@ -68,7 +87,7 @@ html {
   margin-top: 0;
   font-family: 'Helvetica', 'Arial', sans-serif;
   font-weight: bolder;
-  font-size: 2rem;
+  font-size: 3rem;
 }
 
 /* Sidebar nav */
@@ -116,7 +135,7 @@ a.sidebar-nav-item:focus {
 
 @media (min-width: 48em) {
   .content {
-    max-width: 38rem;
+    max-width: 30rem;
     margin-left: 10rem;
     margin-right: 2rem;
   }

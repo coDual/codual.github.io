@@ -17,7 +17,6 @@ Etiam porta **sem malesuada magna** mollis euismod. Cras mattis consectetur puru
 
 $$ e^{i\tau} + 1 = 0$$
 
-
 ## Inline HTML elements
 
 HTML defines a long list of available inline tags, a complete list of which can be found on the [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web/HTML/Element).
@@ -45,7 +44,3 @@ var adder = new Function("a", "b", "return a + b");
 adder(2, 6);
 // > 8
 {% endhighlight %}
-
-****
-
-[^pepe]: ¿Cómo mola la mierda esta no?

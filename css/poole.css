@@ -362,6 +362,10 @@ tbody tr:nth-child(odd) th {
   color: #9a9a9a;
 }
 
+.read-more {
+  text-align: right;
+}
+
 /*
  * Pagination
  *
