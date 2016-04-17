@@ -3,12 +3,12 @@ layout: page
 title: '@psi'
 ---
 
-# Contacto
+<!--# Contacto
 
 - Telegram
 - Github
 
-<!--Mi [PGP]() es-->
+Mi [PGP]() es
 
 # Links
 
@@ -18,3 +18,4 @@ title: '@psi'
 - OPML con los blogs que leo (date)
 
 # Mis posts
+-->
