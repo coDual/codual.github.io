@@ -1,21 +1,16 @@
 ---
 layout: page
-title: '@psi'
+title: 'Psi'
 ---
 
-<!--# Contacto
+[Mx](https://en.wikipedia.org/wiki/Mx_(title)) es el equivalente neutro a Mr/Mrs.
+[Psi](https://en.wikipedia.org/wiki/Psi_(letter)) es una letra griega.
 
-- Telegram
-- Github
+- **Telegram**: [@mx_psi](https://telegram.me/mx_psi)
+- **Github**: [@tzae](https://github.com/tzae)
+- **Goodreads**: [@mx_psi](https://goodreads.com/mx_psi)
+- [Playlists en Youtube](https://www.youtube.com/channel/UCu8TxZ9wEnfux8AxnVq6UDA/playlists)
+- [Blogs que leo [OPML]]({{ site.url }}/docs/blogs-psi.opml) *Actualizado: <time datetime="2016-04-20">Abril 2016</time>*
 
-Mi [PGP]() es
-
-# Links
-
-- Goodreads
-- Tumblr
-- Playlists de Youtube
-- OPML con los blogs que leo (date)
-
-# Mis posts
--->
+Si quieres contactar conmigo hazlo por Telegram.
+Para otras redes sociales puedes preguntar en privado.

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<opml version="1.0">
+    <head>
+        <title>Blogs que leo 20-04-2016</title>
+    </head>
+    <body>
+        <outline text="Miscelánea" title="Miscelánea">
+            <outline type="rss" text="Así habló Cicerón" title="Así habló Cicerón" xmlUrl="http://asihablociceron.blogspot.com/feeds/posts/default" htmlUrl="http://asihablociceron.blogspot.com/"/>
+            <outline type="rss" text="Luke Muehlhauser" title="Luke Muehlhauser" xmlUrl="http://lukemuehlhauser.com/feed/" htmlUrl="http://lukemuehlhauser.com"/>
+            <outline type="rss" text="Less Wrong" title="Less Wrong" xmlUrl="http://lesswrong.com/.rss" htmlUrl="http://lesswrong.com/"/>
+            <outline type="rss" text="xkcd.com" title="xkcd.com" xmlUrl="http://xkcd.com/rss.xml" htmlUrl="http://xkcd.com/"/>
+            <outline type="rss" text="Gwern" title="Gwern" xmlUrl="http://www.gwern.net/atom.xml"/>
+            <outline type="rss" text="Saturday Morning Breakfast Cereal (..." title="Saturday Morning Breakfast Cereal (..." xmlUrl="http://www.smbc-comics.com/rss.php" htmlUrl="http://www.smbc-comics.com/"/>
+        </outline>
+        <outline text="Ciencia" title="Ciencia">
+            <outline type="rss" text="La Ciencia y sus Demonios" title="La Ciencia y sus Demonios" xmlUrl="http://cnho.wordpress.com/feed/" htmlUrl="https://lacienciaysusdemonios.com"/>
+            <outline type="rss" text="Eparquio Delgado" title="Eparquio Delgado" xmlUrl="http://feeds.feedburner.com/EparquioDelgado" htmlUrl="http://www.eparquiodelgado.com"/>
+            <outline type="rss" text="Arcsecond" title="Arcsecond" xmlUrl="https://arcsecond.wordpress.com/feed/" htmlUrl="https://arcsecond.wordpress.com"/>
+            <outline type="rss" text="Cuentos Cuánticos" title="Cuentos Cuánticos" xmlUrl="http://cuentos-cuanticos.com/feed/" htmlUrl="https://cuentos-cuanticos.com"/>
+            <outline type="rss" text="BPS Research Digest" title="BPS Research Digest" xmlUrl="http://bps-research-digest.blogspot.com/feeds/posts/default" htmlUrl="http://digest.bps.org.uk/"/>
+            <outline type="rss" text="Fox News" title="Fox News" xmlUrl="https://biolovulpes.wordpress.com/feed/" htmlUrl="https://biolovulpes.wordpress.com"/>
+        </outline>
+        <outline text="Política" title="Política">
+            <outline type="rss" text="Alberto Garzón" title="Alberto Garzón" xmlUrl="http://agarzon.net/feed/" htmlUrl="http://agarzon.net"/>
+            <outline type="rss" text="Politikon" title="Politikon" xmlUrl="http://politikon.es/feed/" htmlUrl="http://politikon.es"/>
+            <outline type="rss" text="Crooked Timber" title="Crooked Timber" xmlUrl="http://crookedtimber.org/feed/" htmlUrl="http://crookedtimber.org"/>
+            <outline type="rss" text="ribbonfarm" title="ribbonfarm" xmlUrl="http://feeds.ribbonfarm.com/Ribbonfarm" htmlUrl="http://www.ribbonfarm.com"/>
+            <outline type="rss" text="Marginal Revolution" title="Marginal Revolution" xmlUrl="http://feeds.feedburner.com/marginalrevolution/feed" htmlUrl="http://marginalrevolution.com"/>
+            <outline type="rss" text="NYT &gt; Magazine" title="NYT &gt; Magazine" xmlUrl="http://www.nytimes.com/services/xml/rss/nyt/Magazine.xml" htmlUrl="http://www.nytimes.com/pages/magazine/index.html?partner=rss&amp;emc=rss"/>
+            <outline type="rss" text="The Browser" title="The Browser" xmlUrl="http://thebrowser.com/feed/" htmlUrl="https://www.thebrowser.com"/>
+        </outline>
+        <outline text="Estadística" title="Estadística">
+            <outline type="rss" text="Human Varieties" title="Human Varieties" xmlUrl="http://humanvarieties.org/feed/" htmlUrl="http://humanvarieties.org"/>
+            <outline type="rss" text="Quick Thoughts" title="Quick Thoughts" xmlUrl="http://jcoynester.wordpress.com/feed/" htmlUrl="https://jcoynester.wordpress.com"/>
+            <outline type="rss" text="Pinboard (cshalizi)" title="Pinboard (cshalizi)" xmlUrl="http://feeds.pinboard.in/rss/u:cshalizi/" htmlUrl="https://pinboard.in/u:cshalizi/public/"/>
+            <outline type="rss" text="Biased and Inefficient" title="Biased and Inefficient" xmlUrl="http://notstatschat.tumblr.com/rss" htmlUrl="http://notstatschat.tumblr.com/"/>
+            <outline type="rss" text="The Hardest Science" title="The Hardest Science" xmlUrl="https://hardsci.wordpress.com/feed/" htmlUrl="https://hardsci.wordpress.com"/>
+            <outline type="rss" text="Normal Deviate" title="Normal Deviate" xmlUrl="https://normaldeviate.wordpress.com/feed/" htmlUrl="https://normaldeviate.wordpress.com"/>
+            <outline type="rss" text="Statistical Modeling, Causal Inference, and Social Science" title="Statistical Modeling, Causal Inference, and Social Science" xmlUrl="http://andrewgelman.com/feed" htmlUrl="http://andrewgelman.com"/>
+            <outline type="rss" text="The Endeavour" title="The Endeavour" xmlUrl="http://feeds.feedburner.com/theendeavour" htmlUrl="http://www.johndcook.com/blog"/>
+        </outline>
+        <outline text="Matemáticas" title="Matemáticas">
+            <outline type="rss" text="The n-Category Café" title="The n-Category Café" xmlUrl="http://golem.ph.utexas.edu/category/atom10.xml" htmlUrl="http://golem.ph.utexas.edu/category/"/>
+            <outline type="rss" text="Math ∩ Programming | A place for elegant solutions" title="Math ∩ Programming | A place for elegant solutions" xmlUrl="http://jeremykun.com/feed/" htmlUrl="https://jeremykun.com"/>
+            <outline type="rss" text="Jeremy Kun" title="Jeremy Kun" xmlUrl="http://j2kun.svbtle.com/feed" htmlUrl="http://j2kun.svbtle.com"/>
+            <outline type="rss" text="Gaussianos" title="Gaussianos" xmlUrl="http://gaussianos.com/feed/" htmlUrl="http://gaussianos.com"/>
+            <outline type="rss" text="Good Math/Bad Math" title="Good Math/Bad Math" xmlUrl="http://www.goodmath.org/blog/?feed=rss2" htmlUrl="http://www.goodmath.org/blog"/>
+            <outline type="rss" text="Hedonistic Learning" title="Hedonistic Learning" xmlUrl="https://derekelkins.github.io/rss.xml" htmlUrl="https://derekelkins.github.io"/>
+        </outline>
+        <outline text="Sociología y feminismo" title="Sociología y feminismo">
+            <outline type="rss" text="Brute Reason" title="Brute Reason" xmlUrl="http://freethoughtblogs.com/brutereason/feed/" htmlUrl="http://freethoughtblogs.com/brutereason"/>
+            <outline type="rss" text="Family Inequality" title="Family Inequality" xmlUrl="http://familyinequality.wordpress.com/feed/" htmlUrl="https://familyinequality.wordpress.com"/>
+            <outline type="rss" text="Eugenia Andino" title="Eugenia Andino" xmlUrl="http://eugeniaandino.bachpress.org/?feed=rss2" htmlUrl="http://eugeniaandino.es"/>
+            <outline type="rss" text="Golfxs con principios" title="Golfxs con principios" xmlUrl="http://www.golfxsconprincipios.com/feed/" htmlUrl="http://www.golfxsconprincipios.com"/>
+            <outline type="rss" text="Sociological Images" title="Sociological Images" xmlUrl="http://feeds.feedburner.com/SociologicalImagesSeeingIsBelieving" htmlUrl="https://thesocietypages.org/socimages"/>
+        </outline>
+        <outline text="Otros" title="Otros">
+            <outline type="rss" text="The XYZZY Awards" title="The XYZZY Awards" xmlUrl="http://xyzzyawards.org/?feed=rss2" htmlUrl="http://xyzzyawards.org"/>
+            <outline type="rss" text="Hacker News" title="Hacker News" xmlUrl="http://hnrss.org/newest?points=300" htmlUrl="https://news.ycombinator.com/newest"/>
+        </outline>
+        <outline text="Tecnología" title="Tecnología">
+            <outline type="rss" text="Blobs in Games" title="Blobs in Games" xmlUrl="http://simblob.blogspot.com/feeds/posts/default" htmlUrl="http://simblob.blogspot.com/"/>
+            <outline type="rss" text="fuzzy notepad" title="fuzzy notepad" xmlUrl="http://eev.ee/feeds/atom.xml" htmlUrl="https://eev.ee/"/>
+            <outline type="rss" text="Embedded in Academia" title="Embedded in Academia" xmlUrl="http://feeds.feedburner.com/EmbeddedInAcademia" htmlUrl="http://blog.regehr.org"/>
+            <outline type="rss" text="BetterExplained" title="BetterExplained" xmlUrl="http://feeds.feedburner.com/Betterexplained" htmlUrl="http://betterexplained.com"/>
+            <outline type="rss" text="Metamodern" title="Metamodern" xmlUrl="http://feeds.feedburner.com/Metamodern" htmlUrl="http://metamodern.com"/>
+            <outline type="rss" text="Brad Ideas" title="Brad Ideas" xmlUrl="http://ideas.4brad.com/index.rdf" htmlUrl="http://ideas.4brad.com"/>
+            <outline type="rss" text="Schneier on Security" title="Schneier on Security" xmlUrl="http://www.schneier.com/blog/index.rdf" htmlUrl="https://www.schneier.com/blog/"/>
+            <outline type="rss" text="apenwarr - Business is Programming" title="apenwarr - Business is Programming" xmlUrl="http://apenwarr.ca/log/rss.php" htmlUrl="http://apenwarr.ca/log/"/>
+            <outline type="rss" text="Planet Haskell" title="Planet Haskell" xmlUrl="http://planet.haskell.org/rss20.xml" htmlUrl="http://planet.haskell.org/"/>
+            <outline type="rss" text="Things Of Interest" title="Things Of Interest" xmlUrl="http://qntm.org/rss.php" htmlUrl="https://qntm.org/"/>
+            <outline type="rss" text="Coding Horror" title="Coding Horror" xmlUrl="http://feeds.feedburner.com/codinghorror/" htmlUrl="http://blog.codinghorror.com/"/>
+            <outline type="rss" text="Proper Fixation" title="Proper Fixation" xmlUrl="http://www.yosefk.com/blog/feed" htmlUrl="http://yosefk.com/blog"/>
+            <outline type="rss" text="The Long Now Blog" title="The Long Now Blog" xmlUrl="http://blog.longnow.org/feed/" htmlUrl="http://blog.longnow.org"/>
+        </outline>
+    </body>
+</opml>
