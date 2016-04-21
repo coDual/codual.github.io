@@ -28,6 +28,6 @@ paginate: 5
 defaults:
   - scope:
       path: ""
-      type: "posts"
     values:
       lang: es
+      layout: post

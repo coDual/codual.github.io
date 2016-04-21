@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<article lang="{{ post.lang }}">
+<article lang="{{ page.lang }}">
   <div class="post">
     <h1 class="post-title">{{ page.title }}</h1>
     <div class="post-data">
@@ -17,7 +17,7 @@ layout: default
     </div>
 
     <!-- Avisos de contenido -->
-    {% if page.warnings != '' %}
+    {% if page.warnings %}
     </br>
     <div class="message">
       <abbr title="Aviso de contenido"><strong>CW</strong></abbr>:
@@ -27,6 +27,7 @@ layout: default
     </div>
     {% endif %}
     {{ content }}
+
     <!--Licencia-->
     <span class="post-license">
     <span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text" property="dct:title" rel="dct:type">{{ page.title }}</span> por
