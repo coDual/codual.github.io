@@ -1,7 +1,6 @@
 ---
-layout: post
-title: Example content
-lang: en
+title: Post de ejemplo
+tags: [ejemplo]
 authors: [psi]
 warnings:
  - Spoilers de Dr. Jekyll & Mr. Hyde
@@ -44,3 +43,5 @@ var adder = new Function("a", "b", "return a + b");
 adder(2, 6);
 // > 8
 {% endhighlight %}
+
+[^pepe]: Una nota a pie de página de ejemplo.
