@@ -1,3 +1,3 @@
 # coDual
 
-Un blog de @M42 y @pbaeyens
+Un blog de @M42 y @tzae
