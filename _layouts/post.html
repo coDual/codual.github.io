@@ -35,9 +35,14 @@ layout: default
       {% for author in page.authors %}
         {% assign authdata = site.authors[author] %}
         {% if forloop.first %} {% elsif forloop.last %} y {% else %}, {% endif %}
-        <a href="{{ authdata.link }}">{{ authdata.name }}</a>
+ <a xmlns:cc="http://creativecommons.org/ns#" href="{{ authdata.link }}" property="cc:attributionName" rel="cc:attributionURL">{{ authdata.name }}</a>
       {% endfor %}
-      se distribuye bajo <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>.
+      se distribuye bajo {{ page.license }}
     </span>
   </div>
 </article>
+{% if page.comments %}
+<hr>
+<br>
+{% include disqus.ext %}
+{% endif %}
