@@ -7,7 +7,7 @@ layout: default
       <h1 class="post-title">{{ page.title }}</h1>
       <span class="post-tags">
         {% for tag in page.tags %}
-          <a class="tag" href="/archivo/#{{ tag | slugify }}">#{{ tag }}</a>&nbsp;
+          <a class="tag" href="/archivo#{{ tag | slugify }}">#{{ tag }}</a>&nbsp;
         {% endfor %}
       </span>
       {% if page.warnings %}

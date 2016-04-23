@@ -14,7 +14,7 @@ title: Home
     <div class="post-data">
     <span class="post-tags">
       {% for tag in post.tags %}
-        <a class="tag" href="/archivo/#{{ tag | slugify }}">#{{ tag }}</a>&nbsp;
+        <a class="tag" href="/archivo#{{ tag | slugify }}">#{{ tag }}</a>&nbsp;
       {% endfor %}
     </span>
     {% if post.warnings %}
