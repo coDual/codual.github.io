@@ -5,17 +5,25 @@ gems:
  - jekyll-feed
  - jekyll-github-metadata
 
-keep_files: [".git"]
-repository: coDual/codual.github.io
-
-# Permalinks
-permalink: pretty
-
-# Setup
+# Basic info
 title: coDual
-baseurl: /
+repository: coDual/codual.github.io
 url: http://codual.github.io
+baseurl: /
 
+# Appearance
+defaults:
+  - values:
+      lang: es
+      layout: post
+      license: '<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>'
+      comments: true
+permalink: pretty
+kramdown:
+  header_offset: 1
+paginate: 5
+
+# Authors
 authors:
   psi:
     name: Psi
@@ -23,12 +31,3 @@ authors:
   m42:
     name: M42
     link: /m42
-
-paginate: 5
-
-defaults:
-  - values:
-      lang: es
-      layout: post
-      license: '<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>'
-      comments: true

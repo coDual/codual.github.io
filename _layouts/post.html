@@ -23,7 +23,25 @@ layout: default
     {{ content }}
 
     <footer>
-    <span class="post-date"><time datetime="{{ page.date }}" pubdate>{{ page.date | date_to_string }}</time</span>
+    <time class="post-date" datetime="{{ page.date }}" pubdate>
+      {% assign m = page.date | date: "%-m" %}
+      {{ page.date | date: "%-d" }}
+      {% case m %}
+        {% when '1' %}Ene
+        {% when '2' %}Feb
+        {% when '3' %}Marzo
+        {% when '4' %}Abril
+        {% when '5' %}Mayo
+        {% when '6' %}Jun
+        {% when '7' %}Jul
+        {% when '8' %}Agosto
+        {% when '9' %}Sep
+        {% when '10' %}Oct
+        {% when '11' %}Nov
+        {% when '12' %}Dic
+      {% endcase %}
+      {{ page.date | date: "%Y" }}
+    </time>
     <span class="post-license">
     <span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text" property="dct:title" rel="dct:type">{{ page.title }}</span> por
       {% for author in page.authors %}
