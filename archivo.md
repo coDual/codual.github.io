@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Posts
-permalink: /posts
+title: Archivo
+permalink: /archivo
 ---
 
 # Etiquetas

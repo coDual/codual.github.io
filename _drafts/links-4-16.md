@@ -1,7 +1,7 @@
 ---
 title: Links 4/2016 (I)
 authors: [psi]
-tags: [links]
+tags: [links, productividad, alt-right]
 ---
 
 [**The secret rules of the internet**](http://www.theverge.com/2016/4/13/11387934/internet-moderator-history-youtube-facebook-reddit-censorship-free-speech)
@@ -22,7 +22,7 @@ Cómo un estadounidense creó un motel para espiar a sus clientes. 🕐: 1h
 [**Alt-right explained**](http://www.vox.com/2016/4/18/11434098/alt-right-explained)
 
 Un *Voxsplainer* sobre los neorreaccionarios, paleocons y la relación entre
-4chan, Reddit y Donald Trump. 🕐: 25 m
+4chan, Reddit y Donald Trump. 🕐: 25m
 
 [**Do bigger or more monitors increase productivity?**](http://skeptics.stackexchange.com/questions/1700)
 

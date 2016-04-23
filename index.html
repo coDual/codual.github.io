@@ -12,26 +12,23 @@ title: Home
       </a>
     </h1>
     <div class="post-data">
-    <span class="post-date">{{ post.date | date_to_string }}</span>  -
-    <span class="post-authors">
-      {% for author in post.authors %}
-        {% assign authdata = site.authors[author] %}
-        {% if forloop.first %} {% elsif forloop.last %} y {% else %}, {% endif %}
-        <a href="{{ authdata.link }}">{{ authdata.name }}</a>
+    <span class="post-tags">
+      {% for tag in post.tags %}
+        <a class="tag" href="/archivo/#{{ tag | slugify }}">#{{ tag }}</a>&nbsp;
       {% endfor %}
     </span>
-    </div>
-
-    <!-- Avisos de contenido -->
     {% if post.warnings %}
-    </br>
-    <div class="message">
+    <span class="message">
       <abbr title="Aviso de contenido"><strong>CW</strong></abbr>:
       {% for warning in post.warnings %}
         {{ warning }}{% if forloop.last%}.{% else %},{% endif %}
       {% endfor %}
-    </div>
+    </span>
     {% endif %}
+    </div>
+
+    <!-- Avisos de contenido -->
+
     <br>
     {{ post.content | truncatewords:70 }}
     <div class"read-more" style="text-align:right"><a href="{{ post.url }}">Seguir leyendo...</a></div>

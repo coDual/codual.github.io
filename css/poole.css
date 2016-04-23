@@ -273,7 +273,7 @@ tbody tr:nth-child(odd) th {
 
 .message {
   margin-bottom: 1rem;
-  padding: 1rem;
+  padding: .2rem .2rem .2rem .2rem;
   color: #717171;
   background-color: #f9f9f9;
 }
@@ -330,7 +330,7 @@ tbody tr:nth-child(odd) th {
 
 .page,
 .post {
-  margin-bottom: 4em;
+  margin-bottom: 3em;
 }
 
 /* Blog post or page title */
@@ -344,10 +344,10 @@ tbody tr:nth-child(odd) th {
   margin-top: 0;
 }
 
-/* Meta data line below post title */
 .post-date {
   margin-top: -.5rem;
   margin-bottom: 1rem;
+  padding-right: 1rem;
   color: #9a9a9a;
 }
 
@@ -356,15 +356,16 @@ tbody tr:nth-child(odd) th {
   color: #9a9a9a;
 }
 
-.post-authors {
-  margin-top: -.5rem;
-  margin-bottom: 1rem;
-  color: #9a9a9a;
-}
-
 .read-more {
   text-align: right;
 }
+
+.tag {
+  background-color: #f9f9f9;
+  padding: .2rem .2rem .2rem .2rem;
+}
+
+.post-tags a {color: #717171;}
 
 /*
  * Pagination
