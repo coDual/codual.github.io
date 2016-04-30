@@ -67,20 +67,22 @@ Cualquiera de ellas negaría directamente que la inteligencia, al menos la que m
 innata, ya que vendría fuertemente determinada por la calidad de vida de la persona.
 
 ¿Y no habrá algún estudio dando pruebas de lo contrario, de que exista esa habilidad matemática? Lo hay.
-Tenemos un estudio que afirma que existe una diferencia innata en las personas para hacer "matemáticas".
+Tenemos un estudio que afirma que existe una diferencia innata en las personas para hacer "matemáticas". [^preschool-math]
 El problema es la concepción de matemáticas que tiene ese artículo. A los niños se les sometió a pruebas
 de estimación visual de cantidad, capacidad de lectura de números arábigos (que alguien me epxlique cómo se
 les ocurrió que esto tenía que ver con matemáticas) y cálculo mental sencillo. Para echar el rato, podéis
-ver la prueba de estimación de los puntos [aquí](http://www.panamath.org/briefdemo.php). Creo que todos los
+jugar con la prueba de estimación de los puntos [aquí](http://www.panamath.org/briefdemo.php). Creo que todos los
 que hemos llegado a las matemáticas de instituto comprendemos que eso tiene poco o nada que ver con el razonamiento
-matemático o con la capacidad lógica que nos interesan:
+matemático o con la capacidad lógica que nos interesa:
+
+[^preschool-math]: [Preschool acuity of the approximate number system correlates with school math ability - *Melissa E. Libertus, Lisa Feigenson and Justin Halberda*](http://onlinelibrary.wiley.com/doi/10.1111/j.1467-7687.2011.01080.x/full)
 
 > [...] *The children who could make the finest-grained estimations in the dot comparison task (for example, judging
 > that eight yellow dots were more than seven blue dots) also knew the most about Arabic numerals and arithmetic.
 > According to the researchers, this means that inborn numerical estimation abilities are linked to achievement
 > (or lack thereof) in school mathematics.*
 
-De hecho, el abstract ya empieza así:
+De hecho, la introducción del artículo ya empieza así:
 
 > *Mathematical competence, from managing a budget to
 > calculating a restaurant tip, is essential to everyday
