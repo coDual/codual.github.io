@@ -1,6 +1,6 @@
 ---
-title: Estudiantes de matemáticas
-tags: []
+title: La capacidad matemática no es innata
+tags: [matemáticas, enseñanza]
 authors: [m42]
 ---
 
@@ -13,16 +13,18 @@ imposible, o al menos muy difícil, entender la abstracción necesaria para ella
 Ese mito es muy dañino.
 La visión de que la inteligencia o la habilidad matemática está prefijada y será inmutable con
 el esfuerzo se corresponde con una teoría implícita de la inteligencia llamada **teoría de la identidad**; la visión
-contraria, que afirma que la habilidad se desarrolla con el esfuerzo, se llama **teoría
+contraria, que afirma que la habilidad se desarrolla con la práctica, se llama **teoría
 incremental**.[^entity]
 
-[^entity]: Traducción libre de "entity theory" contra "incremental theory".
+[^entity]: Traducción libre de "entity theory" contra "incremental theory". En Wikipedia: [*Implicit theories of intelligence*](https://en.wikipedia.org/wiki/Implicit_theories_of_intelligence).
 
 Tenemos estudios que demuestran que los alumnos que creen en la teoría incremental tienen **mejores
-resultados** que aquellos que creen en la teoría de la identidad. Y que además, la diferencia entre unos y otros es
+resultados** que aquellos que creen en la teoría de la identidad [^atlantic-math]. Y que además, la diferencia entre unos y otros es
 todavía mayor en presencia de *factores que afectan directamente al ego*, como la posibilidad de
 cometer un error en público, que es especialmente frequente en las clases de matemáticas de instituto o
 universitarias:
+
+[^atlantic-math]: [**The mith of "I'm bad at math"** - The Atlantic](http://www.theatlantic.com/education/archive/2013/10/the-myth-of-im-bad-at-math/280914/)
 
 > Incremental theories, which, in contrast to
 > entity theories, are characterized by the belief that human attributes are malleable rather than
@@ -32,7 +34,7 @@ universitarias:
 > and goal operating were stronger in the presence (vs. absence) of ego threats such as failure
 > feedback.
 >
-> [*Mindsets Matter: A Meta-Analytic Review of Implicit Theories and Self-Regulation*](faculty.wcas.northwestern.edu/eli-finkel/documents/InPress_BurnetteOBoyleVanEppsPollackFinkel_PsychBull.pdf)  
+> [*Mindsets Matter: A Meta-Analytic Review of Implicit Theories and Self-Regulation*](http://faculty.wcas.northwestern.edu/eli-finkel/documents/InPress_BurnetteOBoyleVanEppsPollackFinkel_PsychBull.pdf)  
 > *Jeni L. Burnette, Ernest O'Boyle et al.*
 
 Es decir, que quitar este mito de la cabeza de los estudiantes y convencerlos de que está en su mano
@@ -43,11 +45,13 @@ a obtener mejores calificaciones.
 ## Problemas de teoría de la identidad
 
 Además de dañino, este mito es falso o, al menos, no tiene ninguna base científica. La medida de la inteligencia más conocida
-que tenemos, que es el coeficiente intelectual (IQ), tiene una visión claramente identitaria, pero
+que tenemos, que es el coeficiente intelectual ([IQ](https://es.wikipedia.org/wiki/Cociente_intelectual)), tiene una visión claramente identitaria, pero
 sufre de varios problemas que la hacen inconsistente con esta visión. Por un lado, es conocido
-que *el entrenamiento en los test que la miden la hace aumentar*, sin que esto se transmita a un
+que *el entrenamiento en los test que la miden la hace aumentar*[^raven-matrices], sin que esto se transmita a un
 aumento de la capacidad en otras actividades. Pero además, sabemos que **existen entrenamientos
 sin relación directa con los tests que hacen aumentar la puntuación en estos**:
+
+[^raven-matrices]: [**The effect of practice on Raven's Advanced Progressive Matrices** - Douglas A Bors, François Vigneau](http://www.sciencedirect.com/science/article/pii/S1041608003000153)
 
 > [...] we present evidence for transfer from training on a demanding working memory task to measures of Gf.
 > This transfer results **even though the trained task is entirely different from the intelligence test
@@ -69,7 +73,7 @@ innata, ya que vendría fuertemente determinada por la calidad de vida de la per
 ¿Y no habrá algún estudio dando pruebas de lo contrario, de que exista esa habilidad matemática? Lo hay.
 Tenemos un estudio que afirma que existe una diferencia innata en las personas para hacer "matemáticas". [^preschool-math]
 El problema es la concepción de matemáticas que tiene ese artículo. A los niños se les sometió a pruebas
-de estimación visual de cantidad, capacidad de lectura de números arábigos (que alguien me epxlique cómo se
+de estimación visual de cantidad, capacidad de lectura de números arábigos (que alguien me explique cómo se
 les ocurrió que esto tenía que ver con matemáticas) y cálculo mental sencillo. Para echar el rato, podéis
 jugar con la prueba de estimación de los puntos [aquí](http://www.panamath.org/briefdemo.php). Creo que todos los
 que hemos llegado a las matemáticas de instituto comprendemos que eso tiene poco o nada que ver con el razonamiento
@@ -119,7 +123,7 @@ perjudicando a las niñas frente a los niños [^teacher-gap]:
 El efecto va en varios pasos. Por un lado, ves que eres una minoría en la carrera y los profesores
 bajan tu nota sistemáticamente sin que tú lo sepas (incluso quizá sin saberlo ellos mismos). Asumes
 que, simplemente, las matemáticas no están hechas para ti. Y tu propia asunción de ese mito de las
-matemáticas como don, condiciona negativamente todos tus posteriores esfuerzos. Tu ansiedad no está
+matemáticas como don innato, condiciona negativamente todos tus posteriores esfuerzos. Tu ansiedad no está
 explicada por diferencias en tu habilidad matemática, [^math-anxiety] pero finalmente, tu
 retirada de las matemáticas sirve como retroalimentación de todo el ciclo. 
 
@@ -138,25 +142,3 @@ los medios para ello.
 por las noches; para el hastío de su mentor [Harold Hardy](https://es.wikipedia.org/wiki/Godfrey_Harold_Hardy), ateo confeso. Por suerte para
 quienes queremos divulgar matemáticas, ni en dioses ni dones externos está el talento matemático, nosotros
 mismos realizamos el esfuerzo, potenciados por nuestro propio interés en la materia. Parece una explicación más justa, y además, probablemente más cierta.
-
-
-
-## Diferencias de género
-[Gender differences in "maths anxiety" aren't explained by differences in ability]: (http://www.gadgette.com/2016/04/22/gender-differences-in-maths-anxiety-arent-explained-by-differences-in-ability/)
-
-[Countries with Higher Levels of Gender Equality Show Larger National Sex Differences in Mathematics Anxiety and Relatively Lower Parental Mathematics Valuation for Girls](http://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0153857)
-
-[Trait beliefs that make woman vulnerable to math disengagement](http://www.sciencedirect.com/science/article/pii/S0191886909003833)
-
-
-
-## Cómo la percepción de la inteligencia afecta al rendimiento
-[Implicit theories of intelligence predict achievement across an adolescent transition: a longitudinal study and an intervention.](http://www.ncbi.nlm.nih.gov/pubmed/17328703)
-
-[Conceptions of ability: Nature and impact across content areas](http://docs.lib.purdue.edu/dissertations/AAI9921102/)
-
-
-## Coeficiente intelectual
-[Flynn effect](https://en.wikipedia.org/wiki/Flynn_effect)
-
-[Fractionating Human Intelligence](http://www.cell.com/neuron/abstract/S0896-6273%2812%2900584-3)
