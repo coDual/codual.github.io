@@ -1,5 +1,5 @@
 ---
-title: La capacidad matemática no es innata
+title: Tu habilidad matemática es fruto de tu trabajo, no de tus genes
 tags: [matemáticas, enseñanza]
 authors: [m42]
 ---
@@ -132,11 +132,11 @@ retirada de las matemáticas sirve como retroalimentación de todo el ciclo.
 
 ## Conclusiones
 
-A la vista de todo lo anterior, creo que todo aquel que se dedica a las matemáticas, antes que nada,
-debe ser humilde. Podemos y debemos estar orgullosos de llevar la carga de un trabajo que requiere una
+A la vista de todo lo anterior, creo que todos aquellos que se dedica a las matemáticas, antes que nada,
+**debemos ser humildes**. Podemos y debemos estar orgullosos de llevar la carga de un trabajo que requiere una
 concentración y dedicación extrema, pero igualmente debemos entender que no es ningún don exclusivo a
 una élite, es fruto de un entrenamiento prolongado y que sería accesible a mucha más gente si se pusieran
-los medios para ello.
+los medios necesarios para ello.
 
 [Ramanujan](https://es.wikipedia.org/wiki/Srinivasa_Aiyangar_Ramanujan) contaba que su talento matemático provenía del dios [Narasinja](https://es.wikipedia.org/wiki/Narasinja), que le susurraba las soluciones
 por las noches; para el hastío de su mentor [Harold Hardy](https://es.wikipedia.org/wiki/Godfrey_Harold_Hardy), ateo confeso. Por suerte para
