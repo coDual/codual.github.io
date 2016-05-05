@@ -21,7 +21,7 @@ incremental**.[^entity]
 Tenemos estudios que demuestran que los alumnos que creen en la teoría incremental tienen **mejores
 resultados** que aquellos que creen en la teoría de la identidad [^atlantic-math]. Y que además, la diferencia entre unos y otros es
 todavía mayor en presencia de *factores que afectan directamente al ego*, como la posibilidad de
-cometer un error en público, que es especialmente frequente en las clases de matemáticas de instituto o
+cometer un error en público, que es especialmente frecuente en las clases de matemáticas de instituto o
 universitarias:
 
 [^atlantic-math]: [**The mith of "I'm bad at math"** - The Atlantic](http://www.theatlantic.com/education/archive/2013/10/the-myth-of-im-bad-at-math/280914/)
