@@ -132,7 +132,7 @@ retirada de las matemáticas sirve como retroalimentación de todo el ciclo.
 
 ## Conclusiones
 
-A la vista de todo lo anterior, creo que todos aquellos que se dedica a las matemáticas, antes que nada,
+A la vista de todo lo anterior, creo que todos aquellos que nos dedicamos a las matemáticas, antes que nada,
 **debemos ser humildes**. Podemos y debemos estar orgullosos de llevar la carga de un trabajo que requiere una
 concentración y dedicación extrema, pero igualmente debemos entender que no es ningún don exclusivo a
 una élite, es fruto de un entrenamiento prolongado y que sería accesible a mucha más gente si se pusieran
