@@ -45,7 +45,7 @@ a obtener mejores calificaciones.
 ## Problemas de teoría de la identidad
 
 Además de dañino, este mito es falso o, al menos, no tiene ninguna base científica. La medida de la inteligencia más conocida
-que tenemos, que es el coeficiente intelectual ([IQ](https://es.wikipedia.org/wiki/Cociente_intelectual)), tiene una visión claramente identitaria, pero
+que tenemos, que es el cociente intelectual ([IQ](https://es.wikipedia.org/wiki/Cociente_intelectual)), tiene una visión claramente identitaria, pero
 sufre de varios problemas que la hacen inconsistente con esta visión. Por un lado, es conocido
 que *el entrenamiento en los test que la miden la hace aumentar*[^raven-matrices], sin que esto se transmita a un
 aumento de la capacidad en otras actividades. Pero además, sabemos que **existen entrenamientos
@@ -62,7 +62,7 @@ sin relación directa con los tests que hacen aumentar la puntuación en estos**
 > *Susanne M. Jaeggi, Martin Buschkuehl et al.*
 
 
-Por otro lado, debemos ser escépticos de que la medida del coeficiente intelectual sea siquiera
+Por otro lado, debemos ser escépticos de que la medida del cociente intelectual sea siquiera
 realmente la medida de una inteligencia pura, innata o independiente de las condiciones en las
 que se desarrolle una persona. El [efecto Flynn](https://en.wikipedia.org/wiki/Flynn_effect) muestra que las puntuaciones medias en los tests
 de inteligencia desde 1930 hasta el día de hoy han ido aumentando de manera sostenida. 
@@ -114,7 +114,7 @@ perjudicando a las niñas frente a los niños [^teacher-gap]:
 > *Beginning in 2002, the researchers studied three groups of Israeli students from sixth grade through
 > the end of high school. The students were given two exams, one graded by outsiders who did not know
 > their identities and another by teachers who knew their names.*
-> 
+>
 > *In math, **the girls outscored the boys in the exam graded anonymously, but the boys outscored the girls
 > when graded by teachers who knew their names**. The effect was not the same for tests on other subjects, like English and Hebrew.*
 >
@@ -125,7 +125,7 @@ bajan tu nota sistemáticamente sin que tú lo sepas (incluso quizá sin saberlo
 que, simplemente, las matemáticas no están hechas para ti. Y tu propia asunción de ese mito de las
 matemáticas como don innato, condiciona negativamente todos tus posteriores esfuerzos. Tu ansiedad no está
 explicada por diferencias en tu habilidad matemática, [^math-anxiety] pero finalmente, tu
-retirada de las matemáticas sirve como retroalimentación de todo el ciclo. 
+retirada de las matemáticas sirve como retroalimentación de todo el ciclo.
 
 [^math-anxiety]: [Gender differences in “maths anxiety” aren’t explained by differences in ability - *Gadgette*](http://www.gadgette.com/2016/04/22/gender-differences-in-maths-anxiety-arent-explained-by-differences-in-ability/)
 
