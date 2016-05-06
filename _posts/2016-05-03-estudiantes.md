@@ -142,3 +142,6 @@ los medios necesarios para ello.
 por las noches; para el hastío de su mentor [Harold Hardy](https://es.wikipedia.org/wiki/Godfrey_Harold_Hardy), ateo confeso. Por suerte para
 quienes queremos divulgar matemáticas, ni en dioses ni dones externos está el talento matemático, nosotros
 mismos realizamos el esfuerzo, potenciados por nuestro propio interés en la materia. Parece una explicación más justa, y además, probablemente más cierta.
+
+> *Este post tiene una respuesta muy recomendable en [este artículo de **drxaverius**](https://biolovulpes.wordpress.com/2016/05/06/borrador-respuesta-a-tu-habilidad-matematica-es-fruto-de-tu-trabajo-no-de-tus-genes) que trata principalmente la sección central "Problemas de la teoría de la identidad".
+> La primera sección me sigue pareciendo interesante. Obviamente no se pretendo que condicione veracidad de lo demás.*
