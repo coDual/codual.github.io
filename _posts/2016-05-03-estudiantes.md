@@ -1,5 +1,6 @@
 ---
 title: Tu habilidad matemática es fruto de tu trabajo, no de tus genes
+description: Tu habilidad matemática depende principalmente de tu trabajo.
 tags: [matemáticas, enseñanza]
 authors: [m42]
 ---
@@ -65,7 +66,7 @@ sin relación directa con los tests que hacen aumentar la puntuación en estos**
 Por otro lado, debemos ser escépticos de que la medida del cociente intelectual sea siquiera
 realmente la medida de una inteligencia pura, innata o independiente de las condiciones en las
 que se desarrolle una persona. El [efecto Flynn](https://en.wikipedia.org/wiki/Flynn_effect) muestra que las puntuaciones medias en los tests
-de inteligencia desde 1930 hasta el día de hoy han ido aumentando de manera sostenida. 
+de inteligencia desde 1930 hasta el día de hoy han ido aumentando de manera sostenida.
 Las explicaciones más plausibles señalan a efectos de una mejor nutrición, sanidad y acceso a la educación.
 Cualquiera de ellas negaría directamente que la inteligencia, al menos la que miden estos tests, sea
 innata, ya que vendría fuertemente determinada por la calidad de vida de la persona.

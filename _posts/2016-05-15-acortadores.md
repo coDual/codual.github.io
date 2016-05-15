@@ -14,11 +14,8 @@ Fueron popularizados por Twitter[^twitter], y se utilizan para obtener estadíst
 
 # Cómo funcionan
 
-Un acortador funciona con una base de datos en la que un número (ID) que identifica cada URL [de forma única](https://en.wikipedia.org/wiki/Universally_unique_identifier).
-
-La ID se genera aleatoriamente hasta encontrar una que esté libre. Coger la mínima ID no ocupada [expone](https://www.quora.com/Is-exposing-database-auto-increment-id-considered-a-bad-practice/answer/Ted-Suzman) mucha información[^alemania] y tiene problemas de concurrencia.
+Un acortador funciona con una base de datos en la que un número (ID) identifica cada URL de forma única. La ID se genera aleatoriamente hasta encontrar una que esté libre: coger la mínima ID no ocupada [expone](https://www.quora.com/Is-exposing-database-auto-increment-id-considered-a-bad-practice/answer/Ted-Suzman) mucha información[^alemania] y tiene problemas de concurrencia.
 La URL que se genera es entonces [la ID convertida](http://stackoverflow.com/a/1562793/3414720) a base 36 (`length ['a'..'z'] + length [0..9]`) o 62 (añadiendo mayúsculas).
-
 
 [^alemania]: Así se [estimó el número de tanques](http://www.theguardian.com/world/2006/jul/20/secondworldwar.tvandradio) que producía Alemania en la Segunda Guerra Mundial.
 
@@ -36,25 +33,29 @@ Justo esto es lo que hicieron Martin Georgiev y Vitaly Shmatikov en [Gone in Six
 
 [^espacio]: Escanear el espacio completo es posible según el paper utilizando servicios como [Amazon EC2](https://en.wikipedia.org/wiki/Amazon_Elastic_Compute_Cloud) o *botnets* en un tiempo razonable.
 
-Para algunos servicios como OneDrive, obtenida una URL era posible encontrar el resto
+Para algunos servicios como OneDrive, obtenida una URL era posible[^OneDrive] encontrar el resto
 de las URLs generadas por el usuario y modificar e incluir *malware* en las carpetas compartidas.
 
 En Google Maps y otros servicios de mapas las URLs encontradas daban
-información sobre recorridos desde casas unifamiliares hasta centros de tratamiento de adicciones, clínicas de aborto o centros de detención juvenil, lo que supone un
-grave problema de privacidad[^analytics]. Por supuesto ~~la NSA~~ nadie se pondría a mirar
+información sobre recorridos desde casas unifamiliares hasta sitios como centros de tratamiento de adicciones, clínicas de aborto, centros de detención juvenil u otras casas, lo que supone un grave problema de privacidad.
+Estas direcciones pueden servir también para [identificar relaciones personales](http://www.pnas.org/content/107/52/22436.long) y cosas tan simples como la ruta que haces hasta llegar al trabajo [pueden identificarte](http://crypto.stanford.edu/~pgolle/papers/commute.pdf) de forma única. En suma, aunque no estén asociados a ningún nombre los datos de localización [no son anónimos](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.651.44&rep=rep1&type=pdf). Por supuesto ~~la NSA~~ nadie se pondría a mirar
 de forma sistemática este espacio de direcciones para obtener información sobre los
 ciudadanos.
 
-[^analytics]: Las direcciones [pueden servir](http://www.pnas.org/content/107/52/22436.long) también para identificar relaciones personales. Google ha actualizado desde entonces su creación de URLs incrementando la longitud de las mismas a 11 caracteres.
+Microsoft ha desactivado la creación de URLs cortas en OneDrive (aunque todas las URLs antiguas siguen teniendo esta vulnerabilidad), y Google ha incrementando la longitud de las URLs cortas a 11-13 caracteres, lo que reduce drásticamente la densidad de URLs utilizadas entre las que se pueden generar.
 
 En su estado actual los acortadores de URLs no son seguros ni privados. Cuando acortas
 una URL debes asumir que su contenido podrá ser accedido por ~~la NSA~~ cualquiera con
 suficiente poder computacional.
 
-# Centralización
+# Aleatoriedad
 
-Es imposible saber a donde apunta una URL acortada hasta hacer una petición al servicio, ya que las IDs se generan aleatoriamente. Esto supone que si un servicio se interrumpe millones de URLs dejarán de funcionar[^interrupcion]. [ArchiveTeam](http://archiveteam.org) tiene [una lista](http://archiveteam.org/index.php?title=TinyURL#Dead_or_Broken)
-de más de 300 acortadores que han dejado de funcionar y de [otra lista](http://archive.is/VCaCh) mantenida por yi.tl un 61% han desaparecido. La mayor parte de estos acortadores no cooperan en el archivado de sus bases de datos, lo que hace que estos links acaben siendo simplemente secuencias de caracteres aleatorias.
+Es imposible saber a donde apunta una URL acortada hasta hacer una petición al servicio, ya que las IDs se generan aleatoriamente. Esto tiene dos problemas importantes.
+
+En primer lugar, no puedes saber si la página que hay detrás del link que visitas es segura. Aunque los acortadores suelen analizar las URLs para evitar el spam este análisis [no siempre es efectivo](http://arxiv.org/pdf/1406.3687.pdf). Además, si un servicio (como [ocurrió con cli.gs](http://thenextweb.com/2009/06/16/popular-url-shortener-cligs-hacked)) es hackeado, sus URLs anteriormente seguras pueden ser redireccionadas a sitios maliciosos.
+
+Y, en segundo lugar, si un servicio se interrumpe **millones de URLs dejarán de funcionar**[^interrupcion]. Esto no es poco común: [ArchiveTeam](http://archiveteam.org) tiene [una lista](http://archiveteam.org/index.php?title=TinyURL#Dead_or_Broken)
+de más de 300 acortadores que han dejado de funcionar y de [otra lista](http://archive.is/VCaCh) de acortadores mantenida por yi.tl un 61% han desaparecido. La mayor parte de estos acortadores no cooperan en el archivado de sus bases de datos, lo que hace que estos links acaben siendo simplemente secuencias de caracteres aleatorias.
 
 [^interrupcion]: Los acortadores de URLs son además más propensos a ser cerrados ya que entran bajo la jurisdicción del país que provee el [nombre de dominio](https://en.wikipedia.org/wiki/List_of_Internet_top-level_domains#Country_code_top-level_domains). vb.ly [cerró](http://www.economist.com/node/17249654) por no cumplir la ley Sharia de Lybia al permitir pornografía.
 
