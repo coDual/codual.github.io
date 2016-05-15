@@ -33,7 +33,7 @@ Justo esto es lo que hicieron Martin Georgiev y Vitaly Shmatikov en [Gone in Six
 
 [^espacio]: Escanear el espacio completo es posible según el paper utilizando servicios como [Amazon EC2](https://en.wikipedia.org/wiki/Amazon_Elastic_Compute_Cloud) o *botnets* en un tiempo razonable.
 
-Para algunos servicios como OneDrive, obtenida una URL era posible[^OneDrive] encontrar el resto
+Para algunos servicios como OneDrive, obtenida una URL era posible encontrar el resto
 de las URLs generadas por el usuario y modificar e incluir *malware* en las carpetas compartidas.
 
 En Google Maps y otros servicios de mapas las URLs encontradas daban
