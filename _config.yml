@@ -8,7 +8,7 @@ gems:
 # Basic info
 title: coDual
 repository: coDual/codual.github.io
-url: http://codual.github.io
+url: https://codual.github.io
 baseurl: /
 
 # Appearance
