@@ -4,6 +4,7 @@ gems:
  - jekyll-paginate
  - jekyll-feed
  - jekyll-github-metadata
+ - jemoji
 
 # Basic info
 title: coDual
