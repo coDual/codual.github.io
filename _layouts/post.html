@@ -53,6 +53,6 @@ layout: default
     </span>
     <footer>
 </article>
-{% if page.comments %}
+{% if page.comments and jekyll.environment == "production" %}
 {% include disqus.ext %}
 {% endif %}
