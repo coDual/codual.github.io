@@ -20,6 +20,7 @@ defaults:
       license: '<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>'
       comments: true
       math: false
+      visible: true
 permalink: pretty
 kramdown:
   header_offset: 1
