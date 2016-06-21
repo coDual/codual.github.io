@@ -15,7 +15,7 @@ permalink: /archivo
 {% capture tag_name %}{{ tag | first }}{% endcapture %}
 {% for post in site.tags[tag_name] %}
   <p class="post-list">
-    <a href="{{ post.url }}">{{ post.title }}</a>
+    <a href="{{ post.url }}">{{ post.title }}</a>&nbsp;-&nbsp;<span class="post-description">{{ post.description }}</span>
   </p>
 {% endfor %}
 {% endfor %}

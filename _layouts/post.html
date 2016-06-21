@@ -4,7 +4,7 @@ layout: default
 
 <article lang="{{ page.lang }}" class="post">
     <header>
-      <h1 class="post-title">{{ page.title }}</h1>
+      <h1 xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text" property="dct:title" rel="dct:type" class="post-title">{{ page.title }}</h1>
       <span class="post-tags">
         {% for tag in page.tags %}
           <a class="tag" href="/archivo#{{ tag | slugify }}">#{{ tag }}</a>&nbsp;
@@ -21,7 +21,7 @@ layout: default
     </header>
     <br>
     {{ content }}
-
+    <br>
     <footer>
     <time class="post-date" datetime="{{ page.date }}" pubdate>
       {% assign m = page.date | date: "%-m" %}
@@ -42,17 +42,17 @@ layout: default
       {% endcase %}
       {{ page.date | date: "%Y" }}
     </time>
+    <span>{% include sharing.ext %}</span>
     <span class="post-license">
-    <span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text" property="dct:title" rel="dct:type">{{ page.title }}</span> por
+    Por
       {% for author in page.authors %}
         {% assign authdata = site.authors[author] %}
         {% if forloop.first %} {% elsif forloop.last %} y {% else %}, {% endif %}
  <a xmlns:cc="http://creativecommons.org/ns#" href="{{ authdata.link }}" property="cc:attributionName" rel="cc:attributionURL">{{ authdata.name }}</a>
-      {% endfor %}
-      se distribuye bajo {{ page.license }}
+      {% endfor %} - {{ page.license }}
     </span>
-    <footer>
+  </footer>
 </article>
-{% if page.comments and jekyll.environment == "production" %}
+{% if page.comments %}
 {% include disqus.ext %}
 {% endif %}
