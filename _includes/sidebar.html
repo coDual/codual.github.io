@@ -9,9 +9,10 @@
 
     <nav class="sidebar-nav">
       {% for node in site.pages %}
-      {% if node.title != null and node.layout == "page" and node.visible %}
+      {% if node.title != null and node.layout == "page"%}
+      {% unless node.hidden %}
         <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}">{{ node.title }}</a>
-      {% endif %}{% endfor %}
+      {% endunless %}{% endif %}{% endfor %}
     </nav>
   </div>
 </div>
