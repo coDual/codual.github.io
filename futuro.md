@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Uh oh
-visible: false
+hidden: true
 ---
 
 Esta página no existe todavía :(
