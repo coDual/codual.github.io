@@ -69,7 +69,7 @@ En el caso de utilizar tarjetas para memorizar cosas sobre matemáticas (el prin
 - Considera incluir las definiciones como tarjetas de doble sentido si es necesario
 - Si una demostración es sencilla, incluye una tarjeta para la idea principal
 - Si usas variables en la respuesta menciónalas en la pregunta para facilitar la comprobación
-- Si una proposición o resultado no tiene nombre es más sencillo incluirlo como una tarjeta con huecos, tapando su forma lógica (*\\(f\\) es continua [...] \\(f\\) es derivable*[^sii]) y/o las hipótesis implicadas (*\\(f\\) es [...] implica que \\(f\\) es derivable*).
+- Si una proposición o resultado no tiene nombre es más sencillo incluirlo como una tarjeta con huecos, tapando su forma lógica (*\\(f\\) es derivable [...] \\(f\\) es continua*[^sii]) y/o las hipótesis implicadas (*\\(f\\) es [...] implica que \\(f\\) es continua*).
 
 [^sii]: Para evitar distinguir si la respuesta es *si y sólo si* o una implicación escribe las implicaciones de la forma *P implica [que] Q*.
 
