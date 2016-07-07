@@ -41,8 +41,8 @@ Anki y otros servicios tienen tarjetas prehechas para aprender algunos temas. Mi
 
 SuperMemo (una software para repetición espaciada) incluye [una lista bastante extensa de consejos](https://www.supermemo.com/en/articles/20rules) para hacer tarjetas que sean efectivas. Algunos consejos que yo encuentro especialmente relevantes son:
 
-- **Aprender antes de memorizar**. No empieces a memorizar algo si no lo has entendido antes o no lo has utilizado de ninguna forma. Por ejemplo, si quieres memorizar un teorema, entiende primero de forma general sus implicaciones, lo que significa y para qué se usa.
-- **Utilizar el tipo de tarjeta más adecuado** La mayor parte de los sistemas de repetición espaciada tienen distintos tipos de tarjetas: como mínimo hay tarjetas clásicas (una pregunta y una respuesta), tarjetas que pueden invertirse (se muestra un lado y debes responder el otro) y tarjetas con huecos ([*cloze deletion*](https://en.wikipedia.org/wiki/Cloze_test)). También puedes emplear (si quieres emplear el tiempo necesario) imágenes o diagramas con huecos para completar. Ten en cuenta también que [no todos los tipos de tarjetas son igual de efectivos](https://www.gwern.net/Spaced%20repetition#review-summary).
+- **Aprende antes de memorizar**. No empieces a memorizar algo si no lo has entendido antes o no lo has utilizado de ninguna forma. Por ejemplo, si quieres memorizar un teorema, entiende primero de forma general sus implicaciones, lo que significa y para qué se usa.
+- **Utiliza el tipo de tarjeta más adecuado** La mayor parte de los sistemas de repetición espaciada tienen distintos tipos de tarjetas: como mínimo hay tarjetas clásicas (una pregunta y una respuesta), tarjetas que pueden invertirse (se muestra un lado y debes responder el otro) y tarjetas con huecos ([*cloze deletion*](https://en.wikipedia.org/wiki/Cloze_test)). También puedes emplear (si quieres emplear el tiempo necesario) imágenes o diagramas con huecos para completar. Ten en cuenta también que [no todos los tipos de tarjetas son igual de efectivos](https://www.gwern.net/Spaced%20repetition#review-summary).
 - **Incluye todo el contexto**. Por ejemplo, para aprender que *agua* se dice *akvo* en esperanto deberías tener una tarjeta en cada dirección[^invertida]: una en la que se te pregunte por la traducción de *agua* y otra en la que se te pregunte por la traducción de *akvo*.
 - **Divide la información lo más posible**: La repetición espaciada funciona mejor si no tienes grandes cantidades de información que responder de una sóla vez. Si puedes dividir una tarjeta en dos independientes será más fácil aprender cada contenido. Evita además las listas demasiado largas (en mí caso más de 5 elementos suele resultar más difícil de memorizar)
 - **Sé consistente**: Si tienes que hacer tarjetas sobre un tema parecido, evita dar información extra que te haga saber de qué tarjeta se trata. Si quieres aprender que *Los escarabajos tienen 6 patas*[^cencia] y *Las arañas tienen 8 patas* haz tarjetas de la forma *[...] tienen 6 patas* ocultando el artículo para que el género de la palabra del hueco no te de información.
@@ -69,7 +69,7 @@ En el caso de utilizar tarjetas para memorizar cosas sobre matemáticas (el prin
 - Considera incluir las definiciones como tarjetas de doble sentido si es necesario
 - Si una demostración es sencilla, incluye una tarjeta para la idea principal
 - Si usas variables en la respuesta menciónalas en la pregunta para facilitar la comprobación
-- Si una proposición o resultado no tiene nombre es más sencillo incluirlo como una tarjeta con huecos, tapando su forma lógica (*$f$ es continua [...] $f$ es derivable*[^sii]) y/o las hipótesis implicadas (*$f$ es [...] implica que $f$ es derivable*).
+- Si una proposición o resultado no tiene nombre es más sencillo incluirlo como una tarjeta con huecos, tapando su forma lógica (*\\(f\\) es continua [...] \\(f\\) es derivable*[^sii]) y/o las hipótesis implicadas (*\\(f\\) es [...] implica que \\(f\\) es derivable*).
 
 [^sii]: Para evitar distinguir si la respuesta es *si y sólo si* o una implicación escribe las implicaciones de la forma *P implica [que] Q*.
 
@@ -86,8 +86,8 @@ La suma de los [$]n[/$] primeros términos de una progresión geométrica de raz
 
 Y obtendríamos una tarjeta con texto:
 
-> La suma de los $n$ primeros términos de una progresión geométrica de razón $r$ con primer término $a$ es:
-> $$\sum_{k=0}^{n-1} ar^k= a \, \frac{1-r^{n}}{1-r}$$
+> La suma de los \\(n\\) primeros términos de una progresión geométrica de razón \\(r\\) con primer término \\(a\\) es:
+> $$\displaystyle\sum_{k=0}^{n-1} ar^k= a \, \frac{1-r^{n}}{1-r}$$
 
 Si vas a utilizar Anki en un dispositivo sin LaTeX (un móvil, por ejemplo) pulsa `Herramientas` → `Comprobar multimedia...` para que se generen todas las imágenes de las fórmulas en un dispositivo con LaTeX y podrás acceder a estas en cualquier dispositivo sincronizado.
 
@@ -95,7 +95,6 @@ Si vas a utilizar Anki en un dispositivo sin LaTeX (un móvil, por ejemplo) puls
 
 - [Spaced repetition - Wikipedia](https://en.wikipedia.org/wiki/Spaced_repetition)
 - [Effective learning: Twenty rules of formulating knowledge](https://www.supermemo.com/en/articles/20rules)
-- [Using a model to compute the optimal schedule of practice](https://www.ncbi.nlm.nih.gov/pubmed/18590367)
 - [Spaced repetition: a hack to make your brain store information](https://www.theguardian.com/education/2016/jan/23/spaced-repetition-a-hack-to-make-your-brain-store-information)
 - [Anki Manual](http://ankisrs.net/docs/manual.html)
 - [Spaced repetition - Gwern.net](https://www.gwern.net/Spaced%20repetition)
