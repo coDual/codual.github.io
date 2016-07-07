@@ -4,7 +4,7 @@ tags: [productividad]
 authors: [psi]
 description: Algunas recomendaciones para utilizar la repetición espaciada centrándose en la aplicación Anki.
 warnings: [Trabajo,Basado parcialmente en experiencia propia]
-hidden: true
+math: true
 ---
 
 La [repetición espaciada](https://en.wikipedia.org/wiki/Spaced_repetition) es una técnica de aprendizaje y memorización que consiste en revisar el contenido con intervalos crecientes de tiempo entre una revisión y la siguiente. Es una técnica que parece ser [bastante efectiva](https://www.gwern.net/Spaced%20repetition#background-testing-works) para [gran cantidad de temas](https://www.gwern.net/Spaced%20repetition#subjects) y es más efectiva que estudiarlo todo junto en los últimos días. En suma, consiste en hacer tarjetas que tengan una pregunta o frase en un lado y una respuesta en el otro y en responder a esa pregunta o frase en intervalos crecientes.
@@ -56,7 +56,7 @@ SuperMemo (una software para repetición espaciada) incluye [una lista bastante 
 
 Si vas a utilizar las tarjetas para memorizar el contenido de una asignatura es relevante el momento en el que hagas las tarjetas. En mi experiencia no deberías hacer las tarjetas justo en el momento en el que aprendes el contenido: hacer tarjetas lleva tiempo y muchas asignaturas tienen contenido introductorio que no es necesario memorizar y puedes estar malgastando el tiempo. **Espera a saber qué contenido es relevante** y en ese momento haz las tarjetas.
 
-Si estás preparando un examen deberías empezar a estudiar las tarjetas con **como mínimo 5 días* *** (mi recomendación sería, si tienes el tiempo para hacerlo, que prepares las tarjetas y empieces a usarlas con 2 semanas de antelación aproximadamente).
+Si estás preparando un examen deberías empezar a estudiar las tarjetas con **como mínimo 5 días** (mi recomendación sería, si tienes el tiempo para hacerlo, que prepares las tarjetas y empieces a usarlas con 2 semanas de antelación aproximadamente).
 
 # Cuándo estudiar
 
