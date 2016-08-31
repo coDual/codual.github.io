@@ -1,0 +1,21 @@
+* Reed Elsevier
+Se dedica a la gestión de información en análisis en ámbitos científicos,
+técnicos y médicos y de análisis de riesgo. Ahora se llama [[https://en.wikipedia.org/wiki/RELX_Group][RELX Group]]; Reed
+Elsevier fue su nombre sólo hasta 2015.
+
+Ha apoyado SOPA y PIPA. También apoyó la Research Works Act, pero se retractó 
+después de un boicot.
+
+** The cost of Knowledge
+Timothy Gowers, medalla field, protestó contra Reed Elsevier en un movimiento
+llamado [[http://thecostofknowledge.com/][The Cost of Knowledge]]. Todavía se puede firmar en su página. En [[https://gowers.wordpress.com/2012/01/21/elsevier-my-part-in-its-downfall/][este
+artículo]], explica las razones del boicot.
+
+** Tráfico de armas
+Hasta otra [[http://www.idiolect.org.uk/elsevier/petition.php][petición]], Elsevier estuvo, mediante una subsidiaria, trabajando en la
+venta de armas. Acabó renunciando a ello mediante un [[http://idiolect.org.uk/notes/?p=647][comunicado oficial]].
+
+
+* Factor de impacto
+El [[https://es.wikipedia.org/wiki/Factor_de_impacto][factor de impacto]] lo calcula el ISI y lo publica en el JCR, parte de la empresa
+Thomson Scientific.
