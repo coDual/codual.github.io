@@ -21,6 +21,16 @@ layout: default
       {% endif %}
     </header>
     <br>
+    {{ if page.hidden }}
+    <div style="margin-bottom: 1rem; padding: 1rem; color: #717171; background-color: #f9f9f9;">
+    :warning:: Este post está <b>oculto</b>. Si puedes, revisa que:
+    <ul>
+      <li>Los avisos de contenido son correctos</li>
+      <li>No hay errores de formato</li>
+      <li>No hay fallos de ortografía y el texto es coherente</li>
+    </ul>
+  </div>
+    {{ endif }}
     {{ content }}
     <br>
     <footer>

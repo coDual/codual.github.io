@@ -20,15 +20,17 @@ Si quieres memorizar cosas más largas o que deben recordarse de forma exacta co
 
 En el caso de temas de desarrollo para mí ha resultado efectivo hacer un esquema del contenido y hacer tarjetas que vayan de los títulos generales al contenido específico de cada sección, aunque es cierto que resulta más complejo.
 
-En resumen, en principio puedes utilizar la repetición espaciada para memorizar cualquier cosa pero **debes dividirla en partes suficientemente pequeñas** como para que no resulte difícil recordar cada una de una vez.
+En resumen, en principio puedes utilizar la repetición espaciada para [memorizar cualquier cosa](https://www.supermemo.com/english/ol/ks.htm) pero **debes dividirla en partes suficientemente pequeñas** como para que no resulte difícil recordar cada una de una vez.
 
 # Qué necesitas
 
-La forma más sencilla de practicar esta técnica es utilizar una aplicación para el ordenador o dispositivos móviles. Si quieres hacerlo a mano hay [algunos algoritmos](https://en.wikipedia.org/wiki/Leitner_system) para ello, pero (probablemente) sea más difícil mantener el interés si te lleva demasiado trabajo.
+La forma más sencilla de practicar esta técnica es utilizar una aplicación para el ordenador o dispositivos móviles. Si quieres hacerlo a mano hay [algunos algoritmos](https://en.wikipedia.org/wiki/Leitner_system)[^leitner] para ello, pero (probablemente) sea más difícil mantener el interés si te lleva demasiado trabajo.
+
+[^leitner]: [Fluent Forever](https://fluent-forever.com) tiene una guía para el sistema Leitner en su segundo apéndice
 
 Yo uso la aplicación [Anki](http://ankisrs.net) ya que tiene un [sistema de sincronización](https://ankiweb.net/about) móvil-ordenador gratuito y permite utilizar LaTeX para escribir fórmulas. Algunos consejos de este post son especificos para Anki, pero la mayor parte de los sistemas de repetición espaciada tienen características similares así que será aplicable en su mayoría utilices la aplicación que sea.
 
-Si quieres utilizar otra aplicación (en iOS Anki no es gratuita, por ejemplo) tienes una [comparativa de características en Wikipedia](https://en.wikipedia.org/wiki/List_of_flashcard_software) y otra de [popularidad en el post de Gwern](https://www.gwern.net/Spaced%20repetition#popularity)
+Si quieres utilizar otra aplicación (en iOS Anki no es gratuita, por ejemplo) tienes una [comparativa de características en Wikipedia](https://en.wikipedia.org/wiki/List_of_flashcard_software) y otra de [popularidad en el post de Gwern](https://www.gwern.net/Spaced%20repetition#popularity).
 
 Si tu objetivo es aprender idiomas [Duolingo](https://es.duolingo.com) y [Memrise](https://www.memrise.com) utilizan este sistema y tienen tarjetas ya preparadas para memorizar vocabulario, estructuras gramaticales y otros aspectos.
 
@@ -69,7 +71,7 @@ En el caso de utilizar tarjetas para memorizar cosas sobre matemáticas (el prin
 - Considera incluir las definiciones como tarjetas de doble sentido si es necesario
 - Si una demostración es sencilla, incluye una tarjeta para la idea principal
 - Si usas variables en la respuesta menciónalas en la pregunta para facilitar la comprobación
-- Si una proposición o resultado no tiene nombre es más sencillo incluirlo como una tarjeta con huecos, tapando su forma lógica (*\\(f\\) es continua [...] \\(f\\) es derivable*[^sii]) y/o las hipótesis implicadas (*\\(f\\) es [...] implica que \\(f\\) es derivable*).
+- Si una proposición o resultado no tiene nombre es más sencillo incluirlo como una tarjeta con huecos, tapando su forma lógica (*\\(f\\) es derivable [...] \\(f\\) es continua*[^sii]) y/o las hipótesis implicadas (*\\(f\\) es [...] implica que \\(f\\) es continua*).
 
 [^sii]: Para evitar distinguir si la respuesta es *si y sólo si* o una implicación escribe las implicaciones de la forma *P implica [que] Q*.
 
