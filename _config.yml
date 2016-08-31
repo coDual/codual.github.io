@@ -24,7 +24,7 @@ defaults:
 permalink: pretty
 kramdown:
   header_offset: 1
-paginate: 5
+paginate: 8
 
 # Authors
 authors:
