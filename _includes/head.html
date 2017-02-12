@@ -19,12 +19,9 @@
   <meta name="og:description" content="{{ page.description }}">
 
   <!-- CSS -->
-  <link rel="stylesheet" href="{{ site.baseurl }}css/poole.css">
-  <link rel="stylesheet" href="{{ site.baseurl }}css/syntax.css">
-  <link rel="stylesheet" href="{{ site.baseurl }}css/hyde.css">
-  <link rel="stylesheet" href="{{ site.baseurl }}css/bigfoot-number.css">
-  <link rel="stylesheet" href="{{ site.baseurl }}css/sharing.css">
-  <link href='//fonts.googleapis.com/css?family=PT+Sans:700,400italic,400' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="{{ site.baseurl }}css/page.css">
+  {% if page.code %} <link rel="stylesheet" href="{{ site.baseurl }}css/syntax.css">{% endif %}
+  {% if page.layout == 'post' %}<link rel="stylesheet" href="{{ site.baseurl }}css/sharing.css">{% endif %}
 
   <!-- Icons -->
   <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ site.baseurl }}public/apple-touch-icon-144-precomposed.png">
@@ -33,13 +30,8 @@
   <!-- RSS -->
   <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
 
-  <!--MathJax-->
   {% if page.math %}
+  <!--MathJax-->
   <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML&locale=es" type="text/javascript"></script>
   {% endif %}
-
-  <!--Bigfoot.js-->
-  <script type="text/javascript" src="/js/jquery-1.12.3.min.js"></script>
-  <script type="text/javascript" src="/js/bigfoot.js"></script>
-  <script type="text/javascript">var bigfoot = $.bigfoot();</script>
 </head>

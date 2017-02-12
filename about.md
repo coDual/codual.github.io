@@ -10,9 +10,8 @@ title: Acerca de
 El blog se aloja en [Github Pages]({{ site.github.repository_url }}),
 está construido con [Jekyll](https://jekyllrb.com)
 y usa una versión modificada del tema [Hyde](http://hyde.getpoole.com).
-También utilizamos [MathJax](https://www.mathjax.org),
-[Bigfoot](http://www.bigfootjs.com) y [Disqus](https://disqus.com).
-Algunas partes del código están inspiradas en el [blog del dgiim](http://tux.ugr.es/dgiimblog).
+También utilizamos [MathJax](https://www.mathjax.org).
+Algunas partes del código están inspiradas en el [blog de libreim](http://tux.ugr.es/libreim/blog).
 
 Si encuentras algún problema puedes hacérnoslo saber a través de una
 [*issue*]({{ site.github.issues_url }}) o contactar con alguno de nosotros (gracias!).

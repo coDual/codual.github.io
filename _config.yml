@@ -18,8 +18,8 @@ defaults:
       lang: es
       layout: post
       license: '<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>'
-      comments: true
       math: false
+      code: false
       hidden: false
 permalink: pretty
 kramdown:
@@ -33,4 +33,4 @@ authors:
     link: /psi
   m42:
     name: M42
-    link: /m42
+    link: https://m42.github.io
