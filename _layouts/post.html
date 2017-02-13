@@ -43,9 +43,6 @@ layout: default
       {% endcase %}
       {{ page.date | date: "%Y" }}
     </time>
-    {% unless page.hidden %}
-    <span>{% include sharing.ext %}</span>
-    {% endunless %}
     <span class="post-license">
     Por
       {% for author in page.authors %}

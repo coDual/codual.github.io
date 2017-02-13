@@ -11,4 +11,7 @@
         <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}">{{ node.title }}</a>{% endunless %}{% endif %}{% endfor %}
     </nav>
   </div>
+  {% if page.layout == 'post'%}
+  <div class="sharing">{% include sharing.ext %}</div>
+  {% endif %}
 </div>

@@ -32,14 +32,9 @@ html {
   letter-spacing: 0.02em;
 }
 
-@media (min-width: 48em) {
-  html {
-    font-size: 16px;
-  }
-}
 @media (min-width: 58em) {
   html {
-    font-size: 20px;
+    font-size: 18px;
   }
 }
 
@@ -50,8 +45,6 @@ body {
       -ms-text-size-adjust: 100%;
 }
 
-
-/* No `:visited` state is required by default (browsers will use `a`) */
 a {
   color: #268bd2;
   text-decoration: none;
@@ -413,7 +406,8 @@ a.pagination-item:hover {
 
 .sidebar {
   text-align: center;
-  padding: 1rem 1rem;
+  padding: 2rem 2rem;
+  background-color: #e8e8e8;
 }
 
 .sidebar-about img {
@@ -428,8 +422,8 @@ a.pagination-item:hover {
     top: 0;
     left: 0;
     bottom: 0;
-    width: 16rem;
-    text-align: left;
+    width: 13rem;
+    text-align: center;
   }
 
   .sidebar-about img {
@@ -441,6 +435,14 @@ a.pagination-item:hover {
   .sidebar-nav {
     margin-bottom: 1rem;
     margin-left: 2rem;
+  }
+
+  .sharing {
+    position: absolute;
+    bottom: 0;
+    padding-bottom: 1rem;
+    width: 80%;
+    margin: 0 auto;
   }
 }
 
