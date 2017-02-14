@@ -1,6 +1,7 @@
 ---
 layout: page
 title: 'Psi'
+hidden: true
 ---
 
 [Mx](//en.wikipedia.org/wiki/Mx_(title)) es el equivalente neutro a Mr/Mrs.

@@ -7,8 +7,6 @@
 
 /*
  * Body resets
- *
- * Update the foundational and global aspects of the page.
  */
 
 * {
@@ -231,22 +229,7 @@ tbody tr:nth-child(odd) th {
 
 
 /*
- * Custom type
- *
- * Extend paragraphs with `.lead` for larger introductory text.
- */
-
-.lead {
-  font-size: 1.25rem;
-  font-weight: 300;
-}
-
-
-/*
  * Messages
- *
- * Show alert messages to users. You may add it to single elements like a `<p>`,
- * or to a parent if there are multiple elements to show.
  */
 
 .message {
@@ -264,38 +247,11 @@ tbody tr:nth-child(odd) th {
  */
 
 .container {
-  max-width: 38rem;
+  max-width: 42rem;
   padding-left:  1rem;
   padding-right: 1rem;
   margin-left:  auto;
   margin-right: auto;
-}
-
-
-/*
- * Masthead
- *
- * Super small header above the content for site name and short description.
- */
-
-.masthead {
-  padding-top:    1rem;
-  padding-bottom: 1rem;
-  margin-bottom: 3rem;
-}
-.masthead-title {
-  margin-top: 0;
-  margin-bottom: 0;
-  color: #505050;
-}
-.masthead-title a {
-  color: #505050;
-}
-.masthead-title small {
-  font-size: 75%;
-  font-weight: 400;
-  color: #c0c0c0;
-  letter-spacing: 0;
 }
 
 
@@ -308,7 +264,7 @@ tbody tr:nth-child(odd) th {
 
 .page,
 .post {
-  margin-bottom: 3em;
+  margin-bottom: 1em;
 }
 
 /* Blog post or page title */
@@ -322,18 +278,6 @@ tbody tr:nth-child(odd) th {
   margin-top: 0;
 }
 
-.post-date {
-  margin-top: -.5rem;
-  margin-bottom: 1rem;
-  padding-right: 1rem;
-  color: #9a9a9a;
-}
-
-.post-license {
-  float:right;
-  color: #9a9a9a;
-}
-
 .read-more {
   text-align: right;
 }
@@ -343,7 +287,13 @@ tbody tr:nth-child(odd) th {
   padding: .2rem .2rem .2rem .2rem;
 }
 
-.post-tags a {color: #717171;}
+.post-tags a {
+  color: #717171;
+}
+
+header {
+    margin-bottom: 2rem;
+}
 
 /*
  * Pagination
@@ -396,7 +346,6 @@ a.pagination-item:hover {
 }
 
 
-
 /*
  * Sidebar
  *
@@ -406,7 +355,7 @@ a.pagination-item:hover {
 
 .sidebar {
   text-align: center;
-  padding: 2rem 2rem;
+  padding: 3rem 2rem;
   background-color: #e8e8e8;
 }
 
@@ -437,15 +386,27 @@ a.pagination-item:hover {
     margin-left: 2rem;
   }
 
-  .sharing {
+  .post-footer {
     position: absolute;
     bottom: 0;
     padding-bottom: 1rem;
     width: 80%;
     margin: 0 auto;
   }
-}
 
+  .post-date .post-license {
+    clear:both;
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 1rem;
+    color: #9a9a9a;
+  }
+
+  .sharing {
+    clear: both;
+    padding-top: 1 rem;
+  }
+}
 
 
 /* Sidebar links */
@@ -478,21 +439,6 @@ a.sidebar-nav-item:focus {
   font-weight: bold;
 }
 
-/* Sticky sidebar
- *
- * Add the `sidebar-sticky` class to the sidebar's container to affix it the
- * contents to the bottom of the sidebar in tablets and up.
- */
-
-@media (min-width: 48em) {
-  .sidebar-sticky {
-    position: absolute;
-    right:  1rem;
-    bottom: 1rem;
-    left:   1rem;
-  }
-}
-
 
 /* Container
  *
@@ -501,8 +447,8 @@ a.sidebar-nav-item:focus {
  */
 
 .content {
-  padding-top:    4rem;
-  padding-bottom: 4rem;
+  padding-top:    2rem;
+  padding-bottom: 2rem;
 }
 
 @media (min-width: 48em) {
@@ -519,6 +465,13 @@ a.sidebar-nav-item:focus {
     margin-left: 22rem;
     margin-right: 4rem;
   }
+}
+
+.footnotes{
+  margin-top: 2rem;
+  padding-top: 2rem;
+  clear: both;
+  border-top: 1px solid #b5b5b5;
 }
 
 
@@ -542,6 +495,6 @@ a.sidebar-nav-item:focus {
 @media (min-width: 64em) {
   .layout-reverse .content {
     margin-left: 4rem;
-    margin-right: 22rem;
+    margin-right: 19rem;
   }
 }

@@ -78,14 +78,3 @@
   background-color: #2795e9;
   border-color: #2795e9;
 }
-
-.resp-sharing-button--email {
-  background-color: #444444;
-  border-color: #444444;
-}
-
-.resp-sharing-button--email:hover
-.resp-sharing-button--email:active {
-  background-color: #2B2B2B;
-  border-color: #2B2B2B;
-}
