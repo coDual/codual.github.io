@@ -33,12 +33,11 @@
       {{ page.date | date: "%Y" }}
     </time>
     <div class="post-license">
-    {% for author in page.authors %}
+    por {% for author in page.authors %}
         {% assign authdata = site.authors[author] %}
         {% if forloop.first %} {% elsif forloop.last %} y {% else %}, {% endif %}
  <a xmlns:cc="http://creativecommons.org/ns#" href="{{ authdata.link }}" property="cc:attributionName" rel="cc:attributionURL">{{ authdata.name }}</a>
- {% endfor %}  - {{ page.license }}
-    </div>
+ {% endfor %}</div>
     
  <div class="sharing">{% include sharing.ext %}</div>
   </footer>

@@ -124,6 +124,18 @@ abbr[title] {
   border-bottom: 1px dotted #e5e5e5;
 }
 
+details {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  background-color: #efefef;
+}
+
+summary {
+  margin-bottom: 1rem;
+  background-color: #d9d9d9;
+  padding: 0.2rem
+}
+
 /* Code */
 code,
 pre {
@@ -355,14 +367,14 @@ a.pagination-item:hover {
 
 .sidebar {
   text-align: center;
-  padding: 3rem 2rem;
+  padding: 4rem 2rem;
   background-color: #e8e8e8;
 }
 
 .sidebar-about img {
   float: left;
   display:block;
-  margin-left: 3rem;
+  margin-left: 2rem;
 }
 
 @media (min-width: 48em) {

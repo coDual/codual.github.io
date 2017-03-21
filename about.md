@@ -5,7 +5,7 @@ title: Acerca de
 
 **{{ site.title }}** es un blog escrito por
 [{{ site.authors.m42.name }}]({{ site.authors.m42.link }}) y
-[{{ site.authors.psi.name }}]({{ site.authors.psi.link }}).
+[{{ site.authors.psi.name }}]({{ site.authors.psi.link }}). Todos los posts están escritos bajo licencia <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a> salvo que se especifique de otra forma.
 
 El blog se aloja en [Github Pages]({{ site.github.repository_url }}),
 está construido con [Jekyll](https://jekyllrb.com)

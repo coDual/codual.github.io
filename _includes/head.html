@@ -12,11 +12,13 @@
   <title>{% if page.title != "Home" %}{{ page.title }} - {% endif %}{{ site.title }}  </title>
 
   <!--Twitter-->
-  <meta name="twitter:card" content="summary">
-  <meta name="og:url" content="{{ site.url }}{{ page.url }}">
-  <meta name="og:title" content="{% if page.title == "Home" %}{{ site.title }}{% else %}{{ page.title }}{% endif %}">
-  <meta name="og:image" content="{{ site.url }}/public/logo.png">
-  <meta name="og:description" content="{{ page.description }}">
+  <meta name="twitter:card" content="summary"/>
+  <meta name="twitter:creator" content="@mx_psi"/>
+  <meta name="twitter:site" content="@mx_psi" />
+  <meta name="og:url" content="{{ site.url }}{{ page.url }}"/>
+  <meta name="og:title" content="{% if page.title == "Home" %}{{ site.title }}{% else %}{{ page.title }}{% endif %}"/>
+  <meta name="og:image" content="{{ site.url }}/public/logo.png"/>
+  <meta name="og:description" content="{{ page.description }}"/>
 
   <!-- CSS -->
   <link rel="stylesheet" href="{{ site.baseurl }}css/page.css">
@@ -32,6 +34,13 @@
 
   {% if page.math %}
   <!--MathJax-->
+  <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+      processEscapes: true}});
+  </script>
+
   <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML&locale=es" type="text/javascript"></script>
   {% endif %}
 </head>

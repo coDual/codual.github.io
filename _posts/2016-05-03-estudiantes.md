@@ -1,7 +1,7 @@
 ---
 title: Tu habilidad matemática es fruto de tu trabajo, no de tus genes
 description: Tu habilidad matemática depende principalmente de tu trabajo.
-tags: [matemáticas, enseñanza]
+tags: [enseñanza]
 authors: [m42]
 ---
 

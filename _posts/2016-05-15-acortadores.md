@@ -2,7 +2,7 @@
 layout: post
 title: Muerte a los acortadores
 lang: es
-tags: [tecnología, privacidad]
+tags: [tecnología]
 description: Los acortadores de enlaces son dañinos para Internet.
 authors: [psi]
 ---

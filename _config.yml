@@ -5,6 +5,7 @@ gems:
  - jekyll-feed
  - jekyll-github-metadata
  - jemoji
+ - jekyll-redirect-from
 
 # Basic info
 title: coDual
@@ -17,7 +18,6 @@ defaults:
   - values:
       lang: es
       layout: post
-      license: '<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA</a>'
       math: false
       code: false
       hidden: false
@@ -30,7 +30,7 @@ paginate: 8
 authors:
   psi:
     name: Psi
-    link: /psi
+    link: https://mx-psi.github.io
   m42:
     name: M42
     link: https://m42.github.io
