@@ -8,7 +8,7 @@ hidden: true
 [Psi](//en.wikipedia.org/wiki/Psi_(letter)) es una letra griega.
 
 - **Telegram**: [@mx_psi](//telegram.me/mx_psi)
-- **Github**: [@tzae](//github.com/tzae)
+- **Github**: [@mx-psi](//github.com/mx-psi)
 - **Goodreads**: [@mx_psi](//goodreads.com/mx_psi)
 - **Pinboard**: [@mx_psi](//pinboard.in/u:mx_psi)
 - [Playlists en Youtube](//www.youtube.com/channel/UCu8TxZ9wEnfux8AxnVq6UDA/playlists)
