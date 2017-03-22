@@ -14,6 +14,6 @@ Aunque no he escrito mucho por aquí en los últimos meses me gustaría volver a
 
 Los cambios han sido inspirados por [**este post de danluu**](https://danluu.com/web-bloat) y han permitido reducir el tiempo de carga de la web a unas 3 veces menos.
 
-Además, he hecho [una página personal]({{ site.authors.psi.link }}) para enlazar todo lo que escriba y todos los proyectos que haga. Algunas de las páginas y archivos que ahora mismo están aquí serán trasladadas a esa página (redireccionaré todo lo que Jekyll me permita).
+<!--Además, he hecho [una página personal]({{ site.authors.psi.link }}) para enlazar todo lo que escriba y todos los proyectos que haga. Algunas de las páginas y archivos que ahora mismo están aquí serán trasladadas a esa página (redireccionaré todo lo que Jekyll me permita).-->
 
 Mi intención es escribir artículos más cortos y terminar algunos proyectos más largos que llevo algunos meses escribiendo. ¡Hasta la próxima!
