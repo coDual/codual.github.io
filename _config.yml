@@ -29,8 +29,8 @@ paginate: 8
 # Authors
 authors:
   psi:
-    name: Psi
-    link: /psi
+    name: Pablo
+    link: https://mx-psi.github.io
   m42:
     name: M42
     link: https://m42.github.io
