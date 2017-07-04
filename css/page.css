@@ -124,10 +124,16 @@ abbr[title] {
   border-bottom: 1px dotted #e5e5e5;
 }
 
-details {
+.ejercicio {
   margin-top: 1rem;
   margin-bottom: 1rem;
   background-color: #efefef;
+}
+
+details {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  background-color: #f6f6f6;
 }
 
 summary {
