@@ -22,7 +22,14 @@ layout: null
    <link href="{{ site.url }}{{ post.url }}"/>
    <updated>{{ post.date | date_to_xmlschema }}</updated>
    <id>{{ site.url }}{{ post.id }}</id>
-   <content type="html">{{ post.content | xml_escape }}</content>
+   <content type="html">
+    {% if post.math %}
+        <emph>Este post contiene fórmulas matemáticas que podrían 
+        no visualizarse correctamente en un lector de RSS.</emph>
+        <hr>
+    {% endif %}
+    {{ post.content | xml_escape }}
+    </content>
  </entry>
  {% endunless %}
  {% endfor %}
