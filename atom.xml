@@ -24,9 +24,9 @@ layout: null
    <id>{{ site.url }}{{ post.id }}</id>
    <content type="html">
     {% if post.math %}
-        <emph>Este post contiene fórmulas matemáticas que podrían 
-        no visualizarse correctamente en un lector de RSS.</emph>
-        <hr>
+        &lt;em&gt;Este post contiene fórmulas matemáticas que podrían 
+        no visualizarse correctamente en un lector de RSS.&lt;/em&gt;
+        &lt;hr&gt;
     {% endif %}
     {{ post.content | xml_escape }}
     </content>
