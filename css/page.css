@@ -1,7 +1,5 @@
 /*
- * Original version by @mdo (MIT License). Learn more at:
- * https://github.com/poole/hyde.
- * https://github.com/poole/poole.
+ * Original version by @mdo (MIT License) (https://github.com/poole/hyde)
  */
 
 
@@ -17,30 +15,76 @@
 
 html,
 body {
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
+  max-width: 55em;
 }
 
 html {
-  font-family: "Helvetica Neue", "Calibri Light", Roboto, sans-serif;
+  font-family: "Open Sans", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-}
-
-@media (min-width: 58em) {
-  html {
-    font-size: 18px;
-  }
+  background-image: url("topography.png");
+  background-attachment: fixed;
+  background-repeat: repeat;
 }
 
 body {
+  margin-top: 1.2em;
+  margin-bottom: 5em;
+  border-radius: 8px;
   color: #515151;
   background-color: #fff;
   -webkit-text-size-adjust: 100%;
-      -ms-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  padding: 1em 2em;
+  box-shadow: 0 0 3em #cacaca;
+}
+
+@media (min-width: 58em) {
+  html { font-size: 18px; }
+  body{ padding: 1em 4em; }
+}
+
+#logo{
+ width: 34px;
+ vertical-align: middle;
+}
+
+#title{
+  font-family: "Open Sans", sans-serif;
+  font-size: large;
+  color: #555;
+}
+
+nav > a{
+  color: #555;
+}
+
+nav{
+  height: 2em;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-item{
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.active{
+    cursor: default;
+    color: #c1292e;
+}
+
+
+footer{
+  text-align: center;
+  font-size: smaller;
+  color: #909090;
 }
 
 a {
@@ -50,7 +94,6 @@ a {
 a strong {
   color: inherit;
 }
-/* `:focus` is linked to `:hover` for basic accessibility */
 a:hover,
 a:focus {
   text-decoration: underline;
@@ -117,7 +160,6 @@ abbr {
   font-size: 85%;
   font-weight: bold;
   color: #555;
-  text-transform: uppercase;
 }
 abbr[title] {
   cursor: help;
@@ -183,28 +225,6 @@ pre code {
   margin-bottom: 0;
 }
 
-/* Gist via GitHub Pages */
-.gist .gist-file {
-  font-family: Menlo, Monaco, "Courier New", monospace !important;
-}
-.gist .markdown-body {
-  padding: 15px;
-}
-.gist pre {
-  padding: 0;
-  background-color: transparent;
-}
-.gist .gist-file .gist-data {
-  font-size: .8rem !important;
-  line-height: 1.4;
-}
-.gist code {
-  padding: 0;
-  color: inherit;
-  background-color: transparent;
-  border-radius: 0;
-}
-
 /* Quotes */
 blockquote {
   padding: .5rem 1rem;
@@ -251,25 +271,11 @@ tbody tr:nth-child(odd) th {
  */
 
 .message {
+  display: inline-block;
+  padding: 1rem 1rem 1rem 1rem;
   margin-bottom: 1rem;
-  padding: .2rem .2rem .2rem .2rem;
   color: #717171;
   background-color: #f9f9f9;
-}
-
-
-/*
- * Container
- *
- * Center the page content.
- */
-
-.container {
-  max-width: 42rem;
-  padding-left:  1rem;
-  padding-right: 1rem;
-  margin-left:  auto;
-  margin-right: auto;
 }
 
 
@@ -293,6 +299,7 @@ tbody tr:nth-child(odd) th {
 }
 .page-title,
 .post-title {
+  font-size: larger;  
   margin-top: 0;
 }
 
@@ -310,7 +317,12 @@ tbody tr:nth-child(odd) th {
 }
 
 header {
-    margin-bottom: 2rem;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: none;
+  padding: 3vw 2em;
+  text-align: center;
 }
 
 /*
@@ -322,8 +334,6 @@ header {
 
 .pagination {
   overflow: hidden; /* clearfix */
-  margin-left: -1rem;
-  margin-right: -1rem;
   color: #ccc;
   text-align: center;
 }
@@ -332,7 +342,6 @@ header {
 .pagination-item {
   display: block;
   padding: 1rem;
-  border: 1px solid #eee;
 }
 .pagination-item:first-child {
   margin-bottom: -1px;
@@ -345,7 +354,7 @@ a.pagination-item:hover {
 
 @media (min-width: 30em) {
   .pagination {
-    margin: 3rem 0;
+    margin: 0rem 0;
   }
   .pagination-item {
     float: left;
@@ -353,135 +362,9 @@ a.pagination-item:hover {
   }
   .pagination-item:first-child {
     margin-bottom: 0;
-    border-top-left-radius:    4px;
-    border-bottom-left-radius: 4px;
   }
   .pagination-item:last-child {
     margin-left: -1px;
-    border-top-right-radius:    4px;
-    border-bottom-right-radius: 4px;
-  }
-}
-
-
-/*
- * Sidebar
- *
- * Flexible banner for housing site name, intro, and "footer" content. Starts
- * out above content in mobile and later moves to the side with wider viewports.
- */
-
-.sidebar {
-  text-align: center;
-  padding: 4rem 2rem;
-  background-color: #e8e8e8;
-}
-
-.sidebar-about img {
-  float: left;
-  display:block;
-  margin-left: 2rem;
-}
-
-@media (min-width: 48em) {
-  .sidebar {
-    position: fixed;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    width: 13rem;
-    text-align: center;
-  }
-
-  .sidebar-about img {
-    display:block;
-    margin:auto;
-    float:none;
-  }
-
-  .sidebar-nav {
-    margin-bottom: 1rem;
-    margin-left: 2rem;
-  }
-
-  .post-footer {
-    position: absolute;
-    bottom: 0;
-    padding-bottom: 1rem;
-    width: 80%;
-    margin: 0 auto;
-  }
-
-  .post-date .post-license {
-    clear:both;
-    width: 80%;
-    margin: 0 auto;
-    padding-bottom: 1rem;
-    color: #9a9a9a;
-  }
-
-  .sharing {
-    clear: both;
-    padding-top: 1 rem;
-  }
-}
-
-
-/* Sidebar links */
-.sidebar a {
-  color: #000;
-}
-
-/* About section */
-.sidebar-about h1 {
-  color: #fff;
-  margin-top: 0;
-  font-family: 'Helvetica', 'Arial', sans-serif;
-  font-weight: bolder;
-  font-size: 3rem;
-}
-
-/* Sidebar nav */
-.sidebar-nav {
-  margin-bottom: 1rem;
-}
-.sidebar-nav-item {
-  display: block;
-  line-height: 1.75;
-}
-a.sidebar-nav-item:hover,
-a.sidebar-nav-item:focus {
-  text-decoration: underline;
-}
-.sidebar-nav-item.active {
-  font-weight: bold;
-}
-
-
-/* Container
- *
- * Align the contents of the site above the proper threshold with some margin-fu
- * with a 25%-wide `.sidebar`.
- */
-
-.content {
-  padding-top:    2rem;
-  padding-bottom: 2rem;
-}
-
-@media (min-width: 48em) {
-  .content {
-    max-width: 33rem;
-    margin-left: 10rem;
-    margin-right: 2rem;
-  }
-}
-
-@media (min-width: 64em) {
-  .content {
-    max-width: 50rem;
-    margin-left: 22rem;
-    margin-right: 4rem;
   }
 }
 
@@ -489,30 +372,9 @@ a.sidebar-nav-item:focus {
   margin-top: 2rem;
   padding-top: 2rem;
   clear: both;
-  border-top: 1px solid #b5b5b5;
+  border-top: 1px solid #eee;
 }
 
-
-/*
- * Reverse layout
- *
- * Flip the orientation of the page by placing the `.sidebar` on the right.
- */
-
-@media (min-width: 48em) {
-  .layout-reverse .sidebar {
-    left: auto;
-    right: 0;
-  }
-  .layout-reverse .content {
-    margin-left: 2rem;
-    margin-right: 10rem;
-  }
-}
-
-@media (min-width: 64em) {
-  .layout-reverse .content {
-    margin-left: 4rem;
-    margin-right: 19rem;
-  }
+.sharing{
+  padding-top: 1rem;
 }

@@ -1,15 +1,17 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="es">
 
   {% include head.html %}
 
-  <body class="layout-reverse">
-
-    {% include sidebar.html %}
-
-    <div class="content container">
+  <body>
+    <nav>
+      <a href="/"><span id="title"> <img id="logo" src="/public/logo.png" /> {{ site.title }}</span></a>
+      {% for node in site.pages %}{% if node.title != null and node.layout == "page" %}{% unless node.hidden %}
+      <a class="nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}">{{ node.title }}</a>
+      {% endunless %}{% endif %}{% endfor %}
+    </nav>
+    <hr>
       {{ content }}
-    </div>
-
+    {% include footer.html %}
   </body>
 </html>

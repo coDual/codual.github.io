@@ -21,8 +21,10 @@
   <meta name="og:description" content="{{ page.description }}"/>
 
   <!-- CSS -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700"/>
   <link rel="stylesheet" href="/css/page.css">
   {% if page.code %} <link rel="stylesheet" href="/css/syntax.css">{% endif %}
+  {% if page.interactive %} <link rel="stylesheet" href="/css/interactive.css">{% endif %}
   {% if page.layout == 'post' %}<link rel="stylesheet" href="/css/sharing.css">{% endif %}
 
   <!-- Icons -->
@@ -34,13 +36,14 @@
 
   {% if page.math %}
   <!--MathJax-->
-  <script type="text/x-mathjax-config">
-  MathJax.Hub.Config({
-    tex2jax: {
-      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
-      processEscapes: true}});
-  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML&locale=es" type="text/javascript"></script>
 
-  <script src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML&locale=es" type="text/javascript"></script>
+  <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      showProcessingMessages: false,
+      tex2jax: {inlineMath: [ ['$','$'], ["\\(","\\)"] ], processEscapes: true},
+      "fast-preview": {disabled: true}
+    });
+  </script>
   {% endif %}
 </head>
