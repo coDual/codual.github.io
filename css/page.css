@@ -24,7 +24,7 @@ html {
   font-family: "Open Sans", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-size: 16px;
+  font-size: 12px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   background-image: url("topography.png");
@@ -45,18 +45,18 @@ body {
 }
 
 @media (min-width: 58em) {
-  html { font-size: 18px; }
+  html { font-size: 15px; }
   body{ padding: 1em 4em; }
 }
 
 #logo{
- width: 34px;
+ width: 1.6em;
  vertical-align: middle;
 }
 
 #title{
   font-family: "Open Sans", sans-serif;
-  font-size: large;
+  font-size: 19px;
   color: #555;
 }
 
