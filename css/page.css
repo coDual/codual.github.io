@@ -7,8 +7,6 @@
  * Body resets
  */
 
-* { box-sizing: border-box;}
-
 html,
 body {
   margin: 0 auto;
@@ -47,23 +45,16 @@ body {
 #logo{
  width: 1.6em;
  vertical-align: middle;
+ transition: transform 0.8s ease-out;
 }
 
 #logo:hover {
-  -webkit-animation: spin 1.7s ease-in-out 1;
-  -moz-animation: spin 1.7s ease-in-out 1;
-  animation: spin 1.7s ease-in-out 1;
+  transform: rotate(115deg);
 }
-
-@-moz-keyframes spin {50% {-moz-transform: rotate(120deg);}}
-@-webkit-keyframes spin {50% {-webkit-transform: rotate(120deg);}}
-@keyframes spin {50% {-webkit-transform: rotate(120deg); transform:rotate(120deg);}}
-
 
 #title{
   font-family: "Open Sans", sans-serif;
   font-size: larger;
-  color: #555;
 }
 
 nav > a{
@@ -112,27 +103,8 @@ h1, h2, h3, h4, h5, h6 {
   color: #313131;
   text-rendering: optimizeLegibility;
 }
-h1 {
-  font-size: 2rem;
-}
-h2 {
-  margin-top: 1rem;
-  font-size: 1.5rem;
-}
-h3 {
-  margin-top: 1.5rem;
-  font-size: 1.25rem;
-}
-h4, h5, h6 {
-  margin-top: 1rem;
-  font-size: 1rem;
-}
 
 /* Body text */
-p {
-  margin-top: 0;
-  margin-bottom: 1rem;
-}
 
 strong {
   color: #303030;
@@ -160,25 +132,8 @@ hr {
   border-bottom: 1px solid #fff;
 }
 
-abbr {
-  font-size: 85%;
-  font-weight: bold;
-  color: #555;
-}
-abbr[title] {
-  cursor: help;
-  border-bottom: 1px dotted #e5e5e5;
-}
-
-.ejercicio {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-  background-color: #efefef;
-}
-
 details {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+  padding-bottom: 1rem;
   background-color: #f6f6f6;
 }
 
@@ -202,14 +157,11 @@ code {
 }
 pre {
   display: block;
-  margin-top: 0;
-  margin-bottom: 1rem;
   padding: 1rem;
   font-size: .8rem;
   line-height: 1.4;
   white-space: pre;
   white-space: pre-wrap;
-  word-break: break-all;
   word-wrap: break-word;
   background-color: #f9f9f9;
 }
@@ -218,15 +170,6 @@ pre code {
   font-size: 100%;
   color: inherit;
   background-color: transparent;
-}
-
-/* Pygments via Jekyll */
-.highlight {
-  margin-bottom: 1rem;
-  border-radius: 4px;
-}
-.highlight pre {
-  margin-bottom: 0;
 }
 
 /* Quotes */
@@ -305,11 +248,6 @@ tbody tr:nth-child(odd) th {
 .post-title {
   font-size: larger;
   margin-top: 0;
-}
-
-.tag {
-  background-color: #f9f9f9;
-  padding: .2rem .2rem .2rem .2rem;
 }
 
 .post-tags a {
