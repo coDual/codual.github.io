@@ -49,6 +49,17 @@ body {
  vertical-align: middle;
 }
 
+#logo:hover {
+  -webkit-animation: spin 1.7s ease-in-out 1;
+  -moz-animation: spin 1.7s ease-in-out 1;
+  animation: spin 1.7s ease-in-out 1;
+}
+
+@-moz-keyframes spin {50% {-moz-transform: rotate(120deg);}}
+@-webkit-keyframes spin {50% {-webkit-transform: rotate(120deg);}}
+@keyframes spin {50% {-webkit-transform: rotate(120deg); transform:rotate(120deg);}}
+
+
 #title{
   font-family: "Open Sans", sans-serif;
   font-size: larger;
