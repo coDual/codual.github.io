@@ -1,6 +1,6 @@
 ---
 title: "Repetición espaciada: consejos"
-tags: [productividad]
+tags: [aprender]
 authors: [psi]
 description: Algunas recomendaciones para utilizar la repetición espaciada centrándose en la aplicación Anki.
 warnings: [Trabajo,Basado parcialmente en experiencia propia]

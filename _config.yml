@@ -12,6 +12,7 @@ title: coDual
 repository: coDual/codual.github.io
 url: https://codual.github.io
 baseurl: /
+safe: false
 
 # Appearance
 defaults:
