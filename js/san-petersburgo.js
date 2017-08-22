@@ -7,18 +7,20 @@ function listenTo(inIDs, updater){
 }
 
 
-// Sorta hacky way of ignoring (most) unnecesary updates of Mathjax formula
+// Sorta hacky way of ignoring (most) unnecessary updates of Mathjax formula
 var MATH = null;
 MathJax.Hub.Queue(function () {
     MATH = MathJax.Hub.getAllJax("expected-formula")[0];
 });
 var update_num = 0;
 function updateMath(num, prized, notPrized){
-    if(num >= update_num && MATH != null){
-	MathJax.Hub.Queue(
-	    ["Text", MATH,"\\frac{" + prized + "}{100}\\cdot 40 + \\frac{" + notPrized + "}{100}\\cdot 0 = " + Math.round(prized*40)/100 + "\\unicode{0x20AC}"]
-	);
-    }
+    setTimeout(function(){
+	if(num >= update_num && MATH != null){
+	    MathJax.Hub.Queue(
+		["Text", MATH,"\\frac{" + prized + "}{100}\\cdot 40 + \\frac{" + notPrized + "}{100}\\cdot 0 = " + Math.round(prized*40)/100 + "\\unicode{0x20AC}"]
+	    );
+	}
+    }, 250);
 }
 
 function updatePrize(){
@@ -65,7 +67,7 @@ function updateBound(){
 
 function updatePercentile(){
     var p = document.getElementById("percentage").value/100;
-    var percentile = 2**(Math.floor(-Math.log(1-p)/Math.log(2)) + 1) - 2;
+    var percentile = 2**(Math.floor(-Math.log(1-p)/Math.log(2)));
     document.getElementById("percentile").textContent = Math.round(percentile*100)/100;
 }
 
@@ -73,4 +75,19 @@ document.addEventListener('DOMContentLoaded', function(event) {
     listenTo(["prized-input"], updatePrize);
     listenTo(["percentage"], updatePercentile);
     listenTo(["max-bound"], updateBound);
+
+    document.getElementById("billGates").addEventListener("click",function(){
+	document.getElementById("max-bound").value = 7.92*10**10;
+	updateBound();
+    });
+
+    document.getElementById("worldGDP").addEventListener("click",function(){
+	document.getElementById("max-bound").value = 13.8*10**12;
+	updateBound();
+    });
+
+    document.getElementById("googol").addEventListener("click",function(){
+	document.getElementById("max-bound").value = 10**100;
+	updateBound();
+    });
 });

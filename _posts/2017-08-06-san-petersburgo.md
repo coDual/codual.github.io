@@ -3,22 +3,26 @@ layout: post
 title: La paradoja de San Petersburgo
 authors: [psi]
 tags: [matemáticas]
-interactive: true
 math: true
-hidden: true
-description: Una explicación de la paradoja de San Petersburgo
+description: Una explicación interactiva de la paradoja de San Petersburgo
 ---
 
-<script src="/js/san-petersburgo.js"></script>
+<div>
+<div class="message">
+	Este post contiene algunos elementos con los que puedes <span class="interactive">interaccionar</span>. Si
+	haces click o modificas su valor el texto se actualizará para reflejar tu elección.
+	<noscript>Necesitas <a href="http://www.enable-javascript.com" target="_blank">activar Javascript</a> para poder interaccionar.</noscript>
+</div>
+</div>
 
 Imagina que te ofrecen participar en una lotería. Consta de 100 billetes y el precio de una participación es de 10€.
 De los 100 billetes <input type="number" value="10" id="prized-input" min="0" max="100" autofocus>
 tienen un premio de 40€
 mientras que los <span class="not-prized"></span> restantes no tienen premio.
 
-| Desenlace  | Premiado     | Sin premio     |
+| Desenlace  | Con premio     | Sin premio     |
 |--------|-------|-------|
-| Proporción   | <span class="prized"></span> de 100 | <span class="not-prized"></span> de 100 |
+| Proporción   | <span class="prized">10</span> de 100 | <span class="not-prized">90</span> de 100 |
 | Premio | 40€    | 0€     |
 
 ¿Participarías en esta lotería? La teoría de la decisión intenta responder a esta y otras preguntas con el principio de la utilidad esperada. Para poder responder a la pregunta vamos a asumir una serie de premisas:
@@ -29,7 +33,7 @@ mientras que los <span class="not-prized"></span> restantes no tienen premio.
 2. Valoramos cada euro de la misma forma; la diferencia en valor entre 10 y 11 € es la misma que entre 1M€ y 1M + 1€. (Si $u$ es la función (función de utilidad) que a cada cantidad de euros le otorga su valor estamos diciendo que $u$ es lineal)
 3. Tenemos certeza de que no nos están engañando: el sorteo es justo y nos darán el premio completo
 
-Bajo estas premisas la teoría de la decisión nos indica que [debemos calcular](http://reducing-suffering.org/why-maximize-expected-value/) el valor esperado de la lotería: **¿Cuánto valor (dinero) recibiremos de media si jugamos un número suficientemente grande de veces?**. Como hay <span class="prized"></span> billetes premiados podemos esperar que en un <span class="prized"></span>% de los casos recibiremos el premio mientras que en el <span class="not-prized"></span>% restante no recibiremos nada.[^utilidad] Por tanto de media recibiremos:
+Bajo estas premisas la teoría de la decisión nos indica que [debemos calcular](http://reducing-suffering.org/why-maximize-expected-value/) el valor esperado de la lotería: *¿Cuánto valor (dinero) recibiremos de media si jugamos un número suficientemente grande de veces?*. Como hay <span class="prized"></span> billetes premiados podemos esperar que en un <span class="prized"></span>% de los casos recibiremos el premio mientras que en el <span class="not-prized"></span>% restante no recibiremos nada.[^utilidad] Por tanto de media recibiremos:
 
 [^utilidad]: Podemos justificar esta afirmación utilizando la [ley de los grandes números](https://en.wikipedia.org/wiki/Law_of_large_numbers). También existen teoremas de representación que justifican utilizar la utilidad esperada como fórmula de decisión si nuestras preferencias siguen unas ciertas restricciones, siendo el más notable el teorema de [von Neumann - Morgenstern](https://en.m.wikipedia.org/wiki/Von_Neumann%E2%80%93Morgenstern_utility_theorem) pero la apuesta de la que trata este artículo no sigue esos axiomas. Puedes leer más en [este artículo de SEP](https://plato.stanford.edu/entries/rationality-normative-utility/#RepThe).
 
@@ -54,7 +58,7 @@ La utilidad esperada es utilizada casi universalmente como criterio de decisión
 Apuesta de San Petersburgo *(original)*
 : Lanza una moneda justa hasta que salga cruz. Por la primera cara recibes 2€ y por cada cara sucesiva recibes el doble que por la anterior (es decir, dos caras tendrá una recompensa de 4€, tres de 8€...)
 
-| Caras  | 1  | 2  | 3  | 4 | ...|
+| # caras  | 1  | 2  | 3  | 4 | ...|
 |--------|-------|-------|----|---|
 | Probabilidad   | 1/2 | 1/4 | 1/8 | 1/16 | ...|
 | Premio | 2€    | 4€     | 8€ | 16€ | ...|
@@ -128,7 +132,7 @@ Apuesta de San Petersburgo (con vida extra)
 
 Esta apuesta modificada tiene la misma recompensa monetaria que la apuesta de San Petersburgo original con una recompensa temporal adicional. Siguiendo los mismos cálculos que en la apuesta original podemos esperar $\infty$ € e $\infty$ minutos de vida extra. Este tiempo infinito hace que la utilidad esperada sea en efecto infinita y contradice la justificación original.
 
-Otras posibles justificaciones de la utilidad acotada pasan por analizar la [psicología humana](http://www.sciencedirect.com/science/article/pii/S0167268199000025) o argumentas que recibir infinito dinero no tendría valor debido a la inflación.
+Otras posibles justificaciones de la utilidad acotada pasan por analizar la [psicología humana](http://www.sciencedirect.com/science/article/pii/S0167268199000025) o argumentar que recibir infinito dinero no tendría valor debido a la inflación.
 
 # Premio no garantizado
 
@@ -136,16 +140,23 @@ Si creemos que las funciones de utilidad pueden no estar acotadas (es decir, que
 
 Podemos negar la tercera premisa utilizando la información de que nadie tiene infinito dinero. Si el banco sólo puede asegurarnos
 
-<div class="standalone"><input type="number" value="1000000" id="max-bound" min="0">€</div>
+<div class="standalone"><input type="number" value="1000000" id="max-bound" min="0" max="1e+308">€</div>
 
-solo podemos esperar recibir <span class="output" id="expected-value">17.53</span>€ de media[^acotado]. Si pruebas con valores como la fortuna de Bill Gates, el PIB mundial o un googol de euros comprobarás que este valor es bastante bajo. Esto puede servir como justificación para asignar un valor bajo a la apuesta.
+solo podemos esperar recibir <strong><span id="expected-value">17.53</span>€</strong> de media[^acotado]. Si pruebas con valores como
+<a href="javascript:void(0)" id="billGates" title="Haz click para modificar el valor" class="interactive">la fortuna de Bill Gates</a>,
+<a href="javascript:void(0)" title="Haz click para modificar el valor" id="worldGDP" class="interactive">el PIB mundial</a> o
+<a href="javascript:void(0)" title="Haz click para modificar el valor" id="googol" class="interactive">un googol de euros</a>
+comprobarás que este valor es bastante bajo. Esto puede servir como justificación para asignar un valor bajo a la apuesta.
 
 [^acotado]: Utilizando la fórmula de una progresión geométrica puedes comprobar que si $b$ es la cota el valor esperado es: $$\min\left\{b, \lfloor \log(b) \rfloor + \frac{b}{2^{\lceil\log(b)\rceil - 1}}\right\}$$
 
-# Criterio de decisión
+# Cambiando el criterio de decisión
 
-Simulación de lo que pasa.
-
-Algunos autores proponen descartar cualquier desenlace con una probabilidad de ocurrir más pequeña que un cierto límite. En la apuesta de San Petersburgo original, en el <input type="number" value="90" id="percentage" min="1" max="99">% de los peores desenlaces obtendremos <span id="percentile"></span>€ o menos.
+Finalmente algunos autores plantean que quizás debamos replantearnos el uso de la utilidad esperada. Como posible solución proponen descartar cualquier desenlace con una probabilidad de ocurrir más pequeña que un cierto umbral. En la apuesta de San Petersburgo original, en el <input type="number" value="90" id="percentage" min="1" max="99">% de los peores desenlaces obtendremos <span id="percentile"></span>€ o menos, lo que da una perspectiva más realista del valor que le otorgamos realmente a la apuesta.
 
 Este tipo de razonamiento sin embargo no es del todo satisfactorio ya que parece algo arbitrario. Como última alternativa existen algunos [enfoques bayesianos](http://blog.givewell.org/2011/08/18/why-we-cant-take-expected-value-estimates-literally-even-when-theyre-unbiased/) que solucionan además otros problemas a los que se enfrenta la teoría de la decisión como el [asalto de Pascal](http://www.nickbostrom.com/papers/pascal.pdf).
+
+Si has llegado hasta aquí y no estás convencido de que la paradoja esté solucionada puedes leer [el artículo de la enciclopedia de Stanford](https://plato.stanford.edu/entries/paradox-stpetersburg) sobre el tema para encontrar soluciones alternativas y una discusión más extensa. En cualquier caso, espero haberte convencido de que hay que tener cuidado con los valores de utilidad infinito y con los modelos que utilizamos para tomar decisiones.
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.min.js"></script>
+<script src="/js/san-petersburgo.js"></script>

@@ -19,7 +19,7 @@ html {
   -moz-osx-font-smoothing: grayscale;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  background-image: url("topography.png");
+  background-image: url("topography.png"); /*subtle patterns*/
   background-attachment: fixed;
   background-repeat: repeat;
 }
@@ -28,9 +28,7 @@ body {
   color: #515151;
   background-color: #fff;
   padding: 1em 2em;
-  box-shadow: 0 0 3em #cacaca;
   max-width: 55em;
-
 }
 
 @media (min-width: 55em) {
@@ -197,8 +195,8 @@ img {
 
 /* Tables */
 table {
-  margin-bottom: 1rem;
-  width: 100%;
+  margin: 1rem auto;
+  width: 50%;
   border: 1px solid #e5e5e5;
   border-collapse: collapse;
 }
@@ -297,4 +295,37 @@ a.pagination-item:hover {
 
 .sharing{
   padding-top: 1rem;
+}
+
+/** Interactive **/
+
+.interactive,
+input[type=number]{
+    font-weight: 600;
+    color: brown;
+}
+
+input[type=number]{
+    width: 32px;
+    text-align: right;
+    font-size: large;
+    border: 0px;
+    -moz-appearance:textfield;
+}
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+.standalone > input[type=number]{
+    width: 20rem;
+    font-size: x-large;
+}
+
+.standalone{
+    color: brown;
+    font-size: larger;
+    padding-bottom: 1rem;
 }
