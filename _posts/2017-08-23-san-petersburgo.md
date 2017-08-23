@@ -18,7 +18,7 @@ description: Una explicación interactiva de la paradoja de San Petersburgo
 Imagina que te ofrecen participar en una lotería. Consta de 100 billetes y el precio de una participación es de 10€.
 De los 100 billetes <input type="number" value="10" id="prized-input" min="0" max="100" autofocus>
 tienen un premio de 40€
-mientras que los <span class="not-prized"></span> restantes no tienen premio.
+mientras que los <span class="not-prized">90</span> restantes no tienen premio.
 
 | Desenlace  | Con premio     | Sin premio     |
 |--------|-------|-------|
@@ -33,7 +33,7 @@ mientras que los <span class="not-prized"></span> restantes no tienen premio.
 2. Valoramos cada euro de la misma forma; la diferencia en valor entre 10 y 11 € es la misma que entre 1M€ y 1M + 1€. (Si $u$ es la función (función de utilidad) que a cada cantidad de euros le otorga su valor estamos diciendo que $u$ es lineal)
 3. Tenemos certeza de que no nos están engañando: el sorteo es justo y nos darán el premio completo
 
-Bajo estas premisas la teoría de la decisión nos indica que [debemos calcular](http://reducing-suffering.org/why-maximize-expected-value/) el valor esperado de la lotería: *¿Cuánto valor (dinero) recibiremos de media si jugamos un número suficientemente grande de veces?*. Como hay <span class="prized"></span> billetes premiados podemos esperar que en un <span class="prized"></span>% de los casos recibiremos el premio mientras que en el <span class="not-prized"></span>% restante no recibiremos nada.[^utilidad] Por tanto de media recibiremos:
+Bajo estas premisas la teoría de la decisión nos indica que [debemos calcular](http://reducing-suffering.org/why-maximize-expected-value/) el valor esperado de la lotería: *¿Cuánto valor (dinero) recibiremos de media si jugamos un número suficientemente grande de veces?*. Como hay <span class="prized">10</span> billetes premiados podemos esperar que en un <span class="prized">10</span>% de los casos recibiremos el premio mientras que en el <span class="not-prized">90</span>% restante no recibiremos nada.[^utilidad] Por tanto de media recibiremos:
 
 [^utilidad]: Podemos justificar esta afirmación utilizando la [ley de los grandes números](https://en.wikipedia.org/wiki/Law_of_large_numbers). También existen teoremas de representación que justifican utilizar la utilidad esperada como fórmula de decisión si nuestras preferencias siguen unas ciertas restricciones, siendo el más notable el teorema de [von Neumann - Morgenstern](https://en.m.wikipedia.org/wiki/Von_Neumann%E2%80%93Morgenstern_utility_theorem) pero la apuesta de la que trata este artículo no sigue esos axiomas. Puedes leer más en [este artículo de SEP](https://plato.stanford.edu/entries/rationality-normative-utility/#RepThe).
 
@@ -41,7 +41,7 @@ Bajo estas premisas la teoría de la decisión nos indica que [debemos calcular]
   $$\frac{10}{100}\cdot 40 + \frac{90}{100} \cdot 0 = 4\unicode{0x20AC}$$
 </div>
 
-Con esta información podemos tomar una decisión: si cada participación cuesta 10€ <strong><span id="outcome">outcome</span></strong> cada vez que juguemos, por lo que <span id="decision">decision</span> participar en la lotería.
+Con esta información podemos tomar una decisión: si cada participación cuesta 10€ <strong><span id="outcome">perderemos 6€ de media</span></strong> cada vez que juguemos, por lo que <span id="decision">no debemos</span> participar en la lotería.
 
 En general si tenemos $n$ desenlaces alternativos $D_1, \dots, D_n$ a una posible acción, $P(D_k)$ es la probabilidad de que resulte el desenlace $k$ y $u(D_k)$ es el valor ($u$tilidad) del desenlace $k$ el **valor esperado** de esa acción será:[^valor]
 
@@ -152,7 +152,7 @@ comprobarás que este valor es bastante bajo. Esto puede servir como justificaci
 
 # Cambiando el criterio de decisión
 
-Finalmente algunos autores plantean que quizás debamos replantearnos el uso de la utilidad esperada. Como posible solución proponen descartar cualquier desenlace con una probabilidad de ocurrir más pequeña que un cierto umbral. En la apuesta de San Petersburgo original, en el <input type="number" value="90" id="percentage" min="1" max="99">% de los peores desenlaces obtendremos <span id="percentile"></span>€ o menos, lo que da una perspectiva más realista del valor que le otorgamos realmente a la apuesta.
+Finalmente algunos autores plantean que quizás debamos replantearnos el uso de la utilidad esperada. Como posible solución proponen descartar cualquier desenlace con una probabilidad de ocurrir más pequeña que un cierto umbral. En la apuesta de San Petersburgo original, en el <input type="number" value="90" id="percentage" min="1" max="99">% de los peores desenlaces obtendremos <span id="percentile">8</span>€ o menos, lo que da una perspectiva más realista del valor que le otorgamos realmente a la apuesta.
 
 Este tipo de razonamiento sin embargo no es del todo satisfactorio ya que parece algo arbitrario. Como última alternativa existen algunos [enfoques bayesianos](http://blog.givewell.org/2011/08/18/why-we-cant-take-expected-value-estimates-literally-even-when-theyre-unbiased/) que solucionan además otros problemas a los que se enfrenta la teoría de la decisión como el [asalto de Pascal](http://www.nickbostrom.com/papers/pascal.pdf).
 

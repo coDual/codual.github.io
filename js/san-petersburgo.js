@@ -3,7 +3,10 @@ var TICKET_VALUE = 10;
 
 function listenTo(inIDs, updater){
     updater();
-    for(var inID of inIDs){ document.getElementById(inID).addEventListener("change", updater); }
+    for(var inID of inIDs){
+        document.getElementById(inID).addEventListener("change", updater);
+        document.getElementById(inID).addEventListener("blur", updater);
+    }
 }
 
 
@@ -71,23 +74,30 @@ function updatePercentile(){
     document.getElementById("percentile").textContent = Math.round(percentile*100)/100;
 }
 
+function billGates(){
+    document.getElementById("max-bound").value = 7.92*10**10;
+    updateBound();
+}
+
+function worldGDP(){
+    document.getElementById("max-bound").value = 13.8*10**12;
+    updateBound();
+}
+
+function googol(){
+    document.getElementById("max-bound").value = 10**100;
+    updateBound();
+}
+
 document.addEventListener('DOMContentLoaded', function(event) {
     listenTo(["prized-input"], updatePrize);
     listenTo(["percentage"], updatePercentile);
     listenTo(["max-bound"], updateBound);
 
-    document.getElementById("billGates").addEventListener("click",function(){
-	document.getElementById("max-bound").value = 7.92*10**10;
-	updateBound();
-    });
-
-    document.getElementById("worldGDP").addEventListener("click",function(){
-	document.getElementById("max-bound").value = 13.8*10**12;
-	updateBound();
-    });
-
-    document.getElementById("googol").addEventListener("click",function(){
-	document.getElementById("max-bound").value = 10**100;
-	updateBound();
-    });
+    document.getElementById("billGates").addEventListener("click",billGates);
+    document.getElementById("billGates").addEventListener("touchstart",billGates);
+    document.getElementById("worldGDP").addEventListener("click",worldGDP);
+    document.getElementById("worldGDP").addEventListener("touchstart",worldGDP);
+    document.getElementById("googol").addEventListener("click",googol);
+    document.getElementById("googol").addEventListener("touchstart",googol);
 });
