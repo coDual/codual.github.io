@@ -158,5 +158,4 @@ Este tipo de razonamiento sin embargo no es del todo satisfactorio ya que parece
 
 Si has llegado hasta aquí y no estás convencido de que la paradoja esté solucionada puedes leer [el artículo de la enciclopedia de Stanford](https://plato.stanford.edu/entries/paradox-stpetersburg) sobre el tema para encontrar soluciones alternativas y una discusión más extensa. En cualquier caso, espero haberte convencido de que hay que tener cuidado con los valores de utilidad infinito y con los modelos que utilizamos para tomar decisiones.
 
-<script src="//cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.min.js"></script>
 <script src="/js/san-petersburgo.js"></script>

@@ -39,13 +39,16 @@
 
   <script type="text/x-mathjax-config">
     MathJax.Hub.Config({
-      showProcessingMessages: false,
-      tex2jax: {inlineMath: [ ['$','$'], ["\\(","\\)"] ], processEscapes: true},
-      "fast-preview": {disabled: true}
+    showProcessingMessages: false,
+    tex2jax: {inlineMath: [ ['$','$'], ["\\(","\\)"] ], processEscapes: true},
+    "fast-preview": {disabled: true},
+    CommonHTML: { linebreaks: { automatic: true } },
+    "HTML-CSS": { linebreaks: { automatic: true } },
+    SVG: { linebreaks: { automatic: true } }
     });
   </script>
   {% endif %}
-  
+
   {% if site.safe %}
   <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
