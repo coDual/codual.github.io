@@ -41,9 +41,9 @@ body {
 }
 
 #logo{
- width: 1.6em;
- vertical-align: middle;
- transition: transform 0.8s ease-out;
+  width: 1.6em;
+  vertical-align: middle;
+  transition: transform 0.5s ease-out;
 }
 
 #logo:hover {
@@ -301,31 +301,31 @@ a.pagination-item:hover {
 
 .interactive,
 input[type=number]{
-    font-weight: 600;
-    color: brown;
+  font-weight: 600;
+  color: brown;
 }
 
 input[type=number]{
-    width: 32px;
-    text-align: right;
-    font-size: large;
-    border: 0px;
-    -moz-appearance:textfield;
+  width: 32px;
+  text-align: right;
+  font-size: large;
+  border: 0px;
+  -moz-appearance:textfield;
 }
 
 
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
-    -webkit-appearance: none;
+  -webkit-appearance: none;
 }
 
 .standalone > input[type=number]{
-    width: 20rem;
-    font-size: x-large;
+  width: 20rem;
+  font-size: x-large;
 }
 
 .standalone{
-    color: brown;
-    font-size: larger;
-    padding-bottom: 1rem;
+  color: brown;
+  font-size: larger;
+  padding-bottom: 1rem;
 }
