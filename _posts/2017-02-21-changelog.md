@@ -5,7 +5,7 @@ authors: [psi]
 tags: [meta]
 ---
 
-Aunque no he escrito mucho por aquí en los últimos meses me gustaría volver a escribir pronto, aquí y en [libreim](http://tux.ugr.es/libreim/blog). Para ello he realizado algunos cambios a {{ site.title }} que me gustaría justificar. 
+Aunque no he escrito mucho por aquí en los últimos meses me gustaría volver a escribir pronto, aquí y en [libreim](https://libreim.github.io/blog). Para ello he realizado algunos cambios a {{ site.title }} que me gustaría justificar.
 
 - He eliminado [**BigFoot**](http://www.bigfootjs.com) (y por tanto jQuery)
 - He eliminado el **sistema de comentarios**. Las conversaciones que hemos tenido sobre los posts del blog han tenido lugar en Twitter y me parece un medio más interesante. Cualquier comentario interesante será añadido al post. Las correcciones son bienvenidas y para cualquier cosa puedes contactar conmigo a través de [Telegram](https://t.me/mx_psi) o publicarlo en redes sociales (asegúrate de mencionarme!)

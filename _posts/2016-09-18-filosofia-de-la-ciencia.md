@@ -16,7 +16,7 @@ Algunas introducciones generales a la filosofía de la ciencia son:
 - :books: [**Blackwell Guide To Philosophy of Science**](//pages.wustl.edu/files/pages/imce/cfcraver/struct_scientif_theories_0.pdf). Los capítulos 1 y 2 presentan una introducción general de la historia de la filosofía de la ciencia del siglo XX y sus problemas y posturas clásicas. También tiene discusiones sobre otros temas más específicos como las teorías cuánticas, la evolución, la biología molecular o las ciencias cognitivas.
 - :books: **An Introduction to The Philosophy of Physics** Introducción al tratamiento de los problemas referentes a la inducción, las magnitudes físicas, el determinismo y la causalidad. Pueden leerse algunos capítulos (sobre los términos téoricos) en [marxists.org](//www.marxists.org/reference/subject/philosophy/works/ge/carnap.htm). Una discusión más extensa sobre el tema de estos capítulos puede leerse [aquí](http://plato.stanford.edu/entries/theoretical-terms-science/#4) y [aquí](http://plato.stanford.edu/entries/science-theory-observation).
 - :books::hourglass_flowing_sand: [The Routledge Companion to Philosophy of Science](//www.goodreads.com/book/show/1129675)
-- :books::hourglass_flowing_sand: [The Routledge Companion to Epistemology](http://kpfu.ru/docs/F991545867/seminar.pdf)
+- :books::hourglass_flowing_sand: [The Routledge Companion to Epistemology](https://web.archive.org/web/20170328215436/http://kpfu.ru/docs/F991545867/seminar.pdf)
 - :books::hourglass_flowing_sand: Aspects of Scientific Explanation and Other Essays in the Philosophy of Science
 
 # Teoría de la confirmación
@@ -51,8 +51,8 @@ La **lógica inductiva** es uno de los grandes proyectos de algunos empiristas c
 
 Si queremos actualizar la probabilidad de una proposición a la luz de nueva evidencia nos basta aplicar el teorema de Bayes pero, ¿qué probabilidad tiene una proposición cuando no tenemos ninguna evidencia? La idea más sencilla es aplicar el [principio de indiferencia](//en.wikipedia.org/wiki/Principle_of_indifference), pero este rápidamente nos lleva a [algunos problemas](//en.wikipedia.org/wiki/Principle_of_indifference#Application_to_continuous_variables). Para solucionarlo se propone el [principio de transformación de grupos de Jaynes](http://bayes.wustl.edu/etj/articles/well.pdf). Algunas discusiones sobre este tema pueden encontrarse en:
 
-- :books::hourglass_flowing_sand:  [Philosophical Theories of Probability](http://samples.sainsburysebooks.co.uk/9781134672462_sample_520014.pdf)
-- :books::hourglass_flowing_sand: [Scientific Reasoning: The Bayesian Approach](//sci-hub.ac/10.1093/bjps/48.1.126)
+- :books::hourglass_flowing_sand: Philosophical Theories of Probability
+- :books::hourglass_flowing_sand: [Scientific Reasoning: The Bayesian Approach](//sci-hub.tw/10.1093/bjps/48.1.126)
 - *The Hole in the Ground of Induction* y *Fixing the hole in the Ground of Induction* discuten una objeción a la justificación de la inducción mencionada antes relacionada con las probabilidades *a priori*.
 
 Otra opción sería hacer una teoría subjetiva. La posibilidad de una cierta objetividad podría aún mantenerse si existiera convergencia. Contra esto se estudia la [polarización de creencias bayesianas](//www.cs.cmu.edu/~kkchang/paper/JernChangKemp.2009.NIPS.BayesianBeliefPolarization.pdf): ejemplos en los que dos personas con posturas contrarias tienden a reforzar éstas a la luz de la misma evidencia.

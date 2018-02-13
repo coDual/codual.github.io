@@ -75,7 +75,7 @@ En el caso de utilizar tarjetas para memorizar cosas sobre matemáticas (el prin
 
 [^sii]: Para evitar distinguir si la respuesta es *si y sólo si* o una implicación escribe las implicaciones de la forma *P implica [que] Q*.
 
-Para escribir fórmulas anki utiliza LaTeX como soporte para escribir matemáticas. Para instalarlo y utilizarlo puedes seguir [esta guía](http://tux.ugr.es/dgiimblog/2015/03/14/latex). Necesitas además instalar el paquete `dvipng`.
+Para escribir fórmulas anki utiliza LaTeX como soporte para escribir matemáticas. Para instalarlo y utilizarlo puedes seguir [esta guía](http://libreim.github.io/blog/2015/03/14/latex). Necesitas además instalar el paquete `dvipng`.
 
 Puedes incluir cualquier tipo de código LaTeX en tus tarjetas como fórmulas, diagramas o tablas. El caso de uso más frecuente son las fórmulas. Para insertarlas puedes teclear `Ctrl`+`T`,`E` (para fórmulas en medio de texto) o `Ctrl`+`T`,`M` (para fórmulas con su propia línea) o utilizar la sintaxis que ves debajo.
 
