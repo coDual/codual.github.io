@@ -56,12 +56,12 @@ La utilidad esperada es utilizada casi universalmente como criterio de decisión
 [^casi]: Este artículo se centra en los problemas de la utilidad esperada infinita o no definida. Puedes encontrar otros problemas que presenta la utilidad esperada como criterio de decisión en el [artículo de SEP](https://plato.stanford.edu/entries/rationality-normative-utility/#CouExpUtiThe).
 
 Apuesta de San Petersburgo *(original)*
-: Lanza una moneda justa hasta que salga cruz. Por la primera cara recibes 2€ y por cada cara sucesiva recibes el doble que por la anterior (es decir, dos caras tendrá una recompensa de 4€, tres de 8€...)
+: Lanza una moneda justa hasta que salga cruz. Por la primera cara recibes 2€ y por cada cara sucesiva recibes el doble que por la anterior (es decir, dos caras tendrá una recompensa de 4€, tres de 8€…)
 
-| # caras  | 1  | 2  | 3  | 4 | ...|
+| # caras  | 1  | 2  | 3  | 4 | …|
 |--------|-------|-------|----|---|
-| Probabilidad   | 1/2 | 1/4 | 1/8 | 1/16 | ...|
-| Premio | 2€    | 4€     | 8€ | 16€ | ...|
+| Probabilidad   | 1/2 | 1/4 | 1/8 | 1/16 | …|
+| Premio | 2€    | 4€     | 8€ | 16€ | …|
 
 ¿Aceptarías esta apuesta si el precio para jugarlo son 10€? ¿y si son 100€? ¿10.000€? La teoría de la decisión nos dice que deberíamos aceptar esos precios si no exceden el valor esperado de la apuesta. Esta acción tiene infinitos posibles desenlaces: cualquier cantidad de caras que podamos imaginar es un posible resultado. En concreto, la probabilidad de que salgan $n$ caras es:
 
@@ -75,7 +75,7 @@ Es decir, llegamos a la conclusión de que ¡deberíamos estar dispuestos a paga
 
 1. Parece tener poco sentido apostar todo nuestro dinero a una sola apuesta. Hay apuestas prometedoras en las que podría tener sentido invertir una gran cantidad de dinero pero ¿no debería haber un límite?
 
-2. Daría igual si las recompensas fuera 2M€, 4M€, 8M€, ... o 2¢, 4¢, 8¢, ... o si la moneda estuviera sesgada de tal manera que en el 99% de los casos siempre saliera cara: el valor esperado en cualquiera de los casos es el mismo (infinito). Cualquier apuesta con valor esperado infinito es igualmente buena.
+2. Daría igual si las recompensas fuera 2M€, 4M€, 8M€, … o 2¢, 4¢, 8¢, … o si la moneda estuviera sesgada de tal manera que en el 99% de los casos siempre saliera cara: el valor esperado en cualquiera de los casos es el mismo (infinito). Cualquier apuesta con valor esperado infinito es igualmente buena.
 
 3. A partir de esta apuesta podemos construir apuestas *sin valor esperado* lo que contradice [algunas premisas frecuentes](https://en.wikipedia.org/wiki/Von_Neumann%E2%80%93Morgenstern_utility_theorem#The_axioms) en teoría de la decisión[^asunciones]:
 
@@ -97,7 +97,7 @@ Una posible solución de la paradoja pasa por la [*utilidad marginal decreciente
 Ley de la utilidad marginal decreciente
 : Cuantas más unidades consumimos de algo menor es el valor de cada nueva unidad.
 
-En términos más simples: la primera bola de helado de chocolate tendrá más valor para nosotros que la segunda, la segunda que la tercera... Desde la perspectiva del dinero estamos negando la segunda premisa (*valoramos cada euro de la misma forma*) lo cuál coincide con nuestras intuiciones del mundo real: para un multimillonario un nuevo euro no tiene el mismo el valor que para alguien que no tenga dinero.
+En términos más simples: la primera bola de helado de chocolate tendrá más valor para nosotros que la segunda, la segunda que la tercera… Desde la perspectiva del dinero estamos negando la segunda premisa (*valoramos cada euro de la misma forma*) lo cuál coincide con nuestras intuiciones del mundo real: para un multimillonario un nuevo euro no tiene el mismo el valor que para alguien que no tenga dinero.
 
 En concreto algunos autores como [Bernouilli](https://en.wikipedia.org/wiki/Daniel_Bernoulli) proponen que el valor del dinero es logarítmico[^log]: si tenemos el doble de dinero este valdrá una "unidad" más. De esta forma, el valor esperado de la apuesta original es:
 
@@ -108,7 +108,7 @@ $$\frac12\log(2)\;+\;\frac14\log(4)\;+\;\dots\;+\;\frac{1}{2^n}\log(2^n)\;+\;\do
 Por tanto el valor esperado sería finito y resolveríamos la paradoja. Esta solución sin embargo no es satisfactoria porque podemos crear una paradoja con una apuesta modificada:
 
 Súperapuesta de San Petersburgo
-: Lanza una moneda justa hasta que salga cruz. Por la primera cara recibes $2^2$€ y por cada cara sucesiva recibes el cuadrado de la anterior (es decir, dos caras tendrán una recompensa de $2^4$€, 3 caras $2^8$€...)
+: Lanza una moneda justa hasta que salga cruz. Por la primera cara recibes $2^2$€ y por cada cara sucesiva recibes el cuadrado de la anterior (es decir, dos caras tendrán una recompensa de $2^4$€, 3 caras $2^8$€…)
 
 Con esta apuesta volvemos a tener una paradoja:
 
@@ -128,7 +128,7 @@ La justificación más citada es que para obtener un premio arbitrariamente gran
 [^certeza]: Asumimos aquí que sabemos con certeza que moriremos en algún momento del futuro. Si existe una probabilidad no nula (da igual cómo de pequeña) de que podamos no morir nunca y tenemos una función de utilidad no acotada existiría una apuesta con valor esperado infinito
 
 Apuesta de San Petersburgo (con vida extra)
-: Un científico que investiga la longevidad humana nos propone la siguiente apuesta. Lanza una moneda justa hasta que salga cruz. Por la primera cara recibes 2€ y 2 **minutos de vida extra** y por cada cara sucesiva recibes el doble de dinero y minutos extra que por la anterior (es decir, dos caras tendrán una recompensa de 4€ y 4 minutos extra de vida, tres de 8€ y 8 minutos...)
+: Un científico que investiga la longevidad humana nos propone la siguiente apuesta. Lanza una moneda justa hasta que salga cruz. Por la primera cara recibes 2€ y 2 **minutos de vida extra** y por cada cara sucesiva recibes el doble de dinero y minutos extra que por la anterior (es decir, dos caras tendrán una recompensa de 4€ y 4 minutos extra de vida, tres de 8€ y 8 minutos…)
 
 Esta apuesta modificada tiene la misma recompensa monetaria que la apuesta de San Petersburgo original con una recompensa temporal adicional. Siguiendo los mismos cálculos que en la apuesta original podemos esperar $\infty$ € e $\infty$ minutos de vida extra. Este tiempo infinito hace que la utilidad esperada sea en efecto infinita y contradice la justificación original.
 
