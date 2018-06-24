@@ -12,7 +12,10 @@ title: coDual
 repository: coDual/codual.github.io
 url: https://codual.github.io
 baseurl: /
-safe: false
+
+collections:
+  log:
+    output: true
 
 # Appearance
 defaults:
@@ -34,4 +37,4 @@ authors:
     link: https://mx-psi.github.io
   m42:
     name: M42
-    link: https://m42.github.io
+    link: https://mroman42.github.io
