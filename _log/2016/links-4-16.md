@@ -1,8 +1,7 @@
 ---
 title: Links 4/2016
-redirect_to: /log/2016/links-4-16/
-hidden: true
 description: Una selección de links sobre tecnología, productividad y política.
+year: 2016
 authors: [psi]
 tags: [links]
 ---

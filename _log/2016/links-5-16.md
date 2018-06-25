@@ -1,10 +1,9 @@
 ---
 title: Links 5/2016
 description: La CIA destruye 'por error' un informe sobre el uso de tortura y otros links
-redirect_to: /log/2016/links-5-16/
-hidden: true
 authors: [psi]
 tags: [links]
+year: 2016
 warnings: Links con menciones de tortura y abusos
 ---
 

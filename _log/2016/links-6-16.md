@@ -1,9 +1,8 @@
 ---
 title: Links 6/16
-redirect_to: /log/2016/links-6-16/
-hidden: true
 tags: [links]
 authors: [psi,m42]
+year: 2016
 description: Una colección de links sobre mercados negros, sesgos en algoritmos, journals sobre casos únicos y otros.
 ---
 

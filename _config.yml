@@ -15,6 +15,7 @@ baseurl: /
 
 collections:
   log:
+    layout: log
     output: true
 
 # Appearance
@@ -25,6 +26,12 @@ defaults:
       math: false
       code: false
       hidden: false
+  - scope:
+      path: ""
+      type: log
+    values:
+      layout: log
+
 permalink: pretty
 kramdown:
   header_offset: 1
