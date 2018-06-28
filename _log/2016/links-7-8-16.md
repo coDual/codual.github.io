@@ -3,6 +3,7 @@ title: Links 7/16 y 8/16
 tags: [links]
 authors: [psi,m42]
 year: 2016
+date: 2016-09-01
 description: Links sobre software libre, transgénicos e inteligencia artificial. Reseñas de algunos libros.
 ---
 

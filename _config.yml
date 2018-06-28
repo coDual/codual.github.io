@@ -15,7 +15,6 @@ baseurl: /
 
 collections:
   log:
-    layout: log
     output: true
 
 # Appearance

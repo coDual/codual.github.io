@@ -2,6 +2,7 @@
 title: Links 4/2016
 description: Una selección de links sobre tecnología, productividad y política.
 year: 2016
+date: 2016-04-24
 authors: [psi]
 tags: [links]
 ---
