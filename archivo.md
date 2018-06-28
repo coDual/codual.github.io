@@ -1,11 +1,11 @@
 ---
 layout: page
-title: Archivo
+title: "#"
 permalink: /archivo
 ---
 
 {% for tag in site.tags %}
-<h3 id="{{ tag | first | slugify}}">{{ tag | first | capitalize }}</h3>
+<h3 id="{{ tag | first | slugify}}">#{{ tag | first }}</h3>
 {% capture tag_name %}{{ tag | first }}{% endcapture %}
 {% for post in site.tags[tag_name] %}
 {% unless post.hidden %}
