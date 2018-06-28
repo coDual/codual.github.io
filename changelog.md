@@ -2,7 +2,14 @@
 layout: page
 title: Changelog
 hidden: true
----        
+---
+
+This website was last updated at {{ "now" | date: "%Y-%m-%d %H:%M" }}.
+
+## `02018-06-28`
+
+- Minor style changes to make the page useful in both English and Spanish
+- Added a Mastodon share button
 
 ## `02018-06-25`
 

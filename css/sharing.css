@@ -78,3 +78,14 @@
   background-color: #2795e9;
   border-color: #2795e9;
 }
+
+.resp-sharing-button--mastodon {
+  background-color: #2b90d9;
+  border-color: #2b90d9;
+}
+
+.resp-sharing-button--mastodon:hover,
+.resp-sharing-button--mastodon:active {
+  background-color: #246696;
+  border-color: #246696;
+}
