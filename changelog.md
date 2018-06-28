@@ -4,7 +4,7 @@ title: Changelog
 hidden: true
 ---
 
-This website was last updated at {{ "now" | date: "%Y-%m-%d %H:%M" }}.
+This website was last updated at {{ "now" | date: "%Y-%m-%d %H:%M" }} GMT.
 
 ## `02018-06-28`
 
