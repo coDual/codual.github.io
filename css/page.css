@@ -130,16 +130,26 @@ hr {
   border-bottom: 1px solid #fff;
 }
 
-details {
-  padding-bottom: 1rem;
-  background-color: #f6f6f6;
+
+/* De libreim */
+
+.ejercicio {
+	background: #f6f6f6;
+	border: 1px solid #d0d0d0;
+	overflow-x: auto;
+	margin: 0 0 1rem;
+	padding: 0.6rem;
 }
 
-summary {
-  margin-bottom: 1rem;
-  background-color: #d9d9d9;
-  padding: 0.2rem
+.ejercicio summary {
+	cursor: pointer;
+	outline: none;
 }
+
+.ejercicio summary p {
+	display: inline;
+}
+
 
 /* Code */
 code,
