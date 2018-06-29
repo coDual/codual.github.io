@@ -329,3 +329,12 @@ input::-webkit-inner-spin-button {
   font-size: larger;
   padding-bottom: 1rem;
 }
+
+.list-date {
+  color: #a2a2a2;
+  padding-right: 0.3em;
+}
+
+.list-description{
+  margin-left: 1em;
+}
