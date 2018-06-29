@@ -61,6 +61,6 @@ de más de 300 acortadores que han dejado de funcionar y de [otra lista](http://
 
 Los enlaces rotos son un grave problema para la conservación de la información en Internet. [Entre un 3% y un 5%](https://en.wikipedia.org/wiki/Link_rot#Prevalence) [^pocket] de los links desaparecen cada año, lo que dificulta acceder a las referencias de las publicaciones científicas y, en general, conservar Internet. Organizaciones como [Internet Archive](http://archive.org) archivan copias periódicas de la web, lo que nos permite acceder a documentos que de otra forma no estarían disponibles.
 
-[^pocket]: En las redes sociales la pérdida puede llegar hasta [el 11%](https://arxiv.org/pdf/1209.3026v1.pdf) cada año. [Mi estimación](/futuro) en función de los links que he leído es similar
+[^pocket]: En las redes sociales la pérdida puede llegar hasta [el 11%](https://arxiv.org/pdf/1209.3026v1.pdf) cada año. [Mi estimación](/2016/09/06/pocket/) en función de los links que he leído es similar
 
 [Entre un 35% y un 90%](http://arxiv.org/pdf/1212.6177v2.pdf) de la web ha sido archivada alguna vez, pero cuando un acortador de URLs deja de funcionar dejamos de poder acceder a ese contenido. [URLTeam](http://tracker.archiveteam.org:1337/status) y [301Works](http://301Works.org) son proyectos que pretenden guardar las bases de datos de los servicios de acortadores, pero no son suficientes: debemos dar de una vez muerte a los acortadores.
