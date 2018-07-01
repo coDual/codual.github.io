@@ -5,7 +5,6 @@ authors: [psi]
 tags: [notebook]
 code: true
 lang: en
-hidden: true
 description: A use-case for Jekyll collections
 ---
 
