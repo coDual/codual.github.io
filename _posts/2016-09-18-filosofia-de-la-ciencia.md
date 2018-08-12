@@ -24,6 +24,7 @@ Algunas introducciones generales a la filosofía de la ciencia son:
 La teoría de la confirmación consiste en desarrollar un marco teórico para indicar cuándo cierta evidencia nos da información sobre la probabilidad de una cierta hipótesis.
 
 - [**Confirmation Theory**](http://patrick.maher1.net/preprints/ctk.pdf) Discute de forma general varios problemas de la teoría de la confirmación, entre ellos: el grado de confirmacion, la probabilidad inductiva y algunos problemas clásicos y objeciones a la condicion de Nicod, paradoja de los cuervos, y el *grue*.
+- :hourglass: [Challenges to Bayesian Confirmation Theory](https://philpapers.org/rec/NORCTB)
 
 ## El problema de la inducción
 
