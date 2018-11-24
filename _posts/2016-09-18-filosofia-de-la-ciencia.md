@@ -76,7 +76,7 @@ Un análisis general sobre las ideas del positivismo lógico/empirismo lógico/n
 - [Logical Empiricism](http://plato.stanford.edu/entries/logical-empiricism/#Iss)
 - [Vienna Circle](http://plato.stanford.edu/entries/vienna-circle/#SelDocTheCri)
 - :books: [Lenguaje, Verdad y Lógica](//archive.org/details/AlfredAyer). Un tono autoritario y con pocos matices pero una buena introducción a algunos de los principios del positivismo lógico.
-- La Universidad de Pittsburgh consta con [un amplio archivo de escritos de Carnap](http://www.library.pitt.edu/rudolf-carnap-papers), uno de los autores más importantes de esta postura.
+- La Universidad de Pittsburgh consta con [un amplio archivo de escritos de Carnap](https://digital.library.pitt.edu/collection/rudolf-carnap-papers), uno de los autores más importantes de esta postura.
 
 Específicamente sobre el problema de **demarcación de la ciencia** es muy importante  [**Empiricism, Ontology and Semantics**](http://www.ditext.com/carnap/carnap.html) (en español
 [aquí](http://biblioteca.cefyl.net/node/5263)). Es una introducción a la idea de los marcos lingüísticos de Carnap y la distinción entre preguntas internas y externas. Análisis del texto pueden encontrarse en SEP:
