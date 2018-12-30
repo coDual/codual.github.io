@@ -20,6 +20,8 @@ y que no he investigado lo suficiente.
 
 - [Misinformation and Its Correction:Continued Influence and Successful Debiasing](//dornsife.usc.edu/assets/sites/780/docs/12_pspi_lewandowsky_et_al_misinformation.pdf)
 - [How to respond to vocal vaccine deniers in public](http://www.euro.who.int/__data/assets/pdf_file/0005/315761/Best-practice-guidance-respond-vocal-vaccine-deniers-public.pdf)
+- [Arguing science with a passionate non-scientist?](https://interpersonal.stackexchange.com/questions/2883)
+- [How to tell someone believing in pseudoscience & conspiracy theories is wrong without making them feel stupid/upset?](https://interpersonal.stackexchange.com/questions/7905)
 
 # Las leyes no son los objetivos
 
