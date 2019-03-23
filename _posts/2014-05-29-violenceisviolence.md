@@ -26,13 +26,13 @@ actores aparecen con la misma ropa, en el mismo lugar, lo cual ya
 
 Pero lo importante no es esto. Lo importante es que esta situación es
 muy improbable. Hay un efecto sociopsicológico llamado ['difusión de la responsabilidad'](https://en.wikipedia.org/wiki/Diffusion_of_responsibility "Diffusion of responsibility - enWiki"),
-observado en estudios como los de [Darley - Latané](http://psych.princeton.edu/psychology/research/darley/pdfs/Bystander.pdf "Bystander intervention in Emergencies") (que mencionó [@<span class="u-linkComplex-target">Aphrabh</span>](https://twitter.com/Aphrabh))
+observado en estudios como los de [Darley - Latané](https://en.wikipedia.org/wiki/Bystander_effect "Bystander effect - Wikipedia") (que mencionó [@<span class="u-linkComplex-target">Aphrabh</span>](https://twitter.com/Aphrabh))
 por el cual es muy improbable que las mujeres que aparecen en el vídeo
 salieran a defender a la chica, dado el alto número de personas que
 había presentes. Así que la situación parece algo inverosímil.
 
 El vídeo pretende justificar la lucha contra la violencia doméstica, y,
-en palabras de la organización, ["Eliminar la política de género de la cuestión del abuso doméstico y asegurar que tanto los hombres como las mujeres víctimas sean tratados por igual"](http://www.mankind.org.uk/aboutus.html) (como apuntó [@510nm](https://twitter.com/510nm/status/471929461382713345)). Para
+en palabras de la organización, ["Eliminar la política de género de la cuestión del abuso doméstico y asegurar que tanto los hombres como las mujeres víctimas sean tratados por igual"](https://web.archive.org/web/20130725181703/https://www.mankind.org.uk/aboutus.html) (como apuntó [@510nm](https://twitter.com/510nm/status/471929461382713345)). Para
 ello, intenta mostrar con una estadística de la *Office for National Statistics* que no existe mucha diferencia entre la violencia doméstica sufrida por hombres y por mujeres.
 
 Investigando un poco, la fuente de la estadística parece ser

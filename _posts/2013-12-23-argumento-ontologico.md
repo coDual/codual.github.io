@@ -65,7 +65,7 @@ define la existencia como una propiedad (crítica que realiza Kant), sino
 que toma como propiedad que es necesaria la existencia de Dios. Este
 argumento es válido, pero ¿Qué significa esto? ¿Los ateos están
 equivocados? ¿Los Macbooks tienen poderes divinos[^nota3] y con
-ellos podemos [demostrar que Dios existe](http://abcnews.go.com/story?id=20678984 "Computer Scientists 'Prove' God Exists")?
+ellos podemos [demostrar que Dios existe](https://abcnews.go.com/Technology/computer-scientists-prove-god-exists/story?id=20678984 "Computer Scientists 'Prove' God Exists")?
 
 Pues no tiene por qué.  La observación del mundo nos lleva a
  preguntarnos por el *[problema del mal](https://en.wikipedia.org/wiki/Problem_of_evil "Problema del mal - enWiki")*. Así, nos quedamos con tres posibilidades:

@@ -45,6 +45,6 @@ Podríamos seguir considerando las posiciones filosóficas realistas, anti-reali
 En mi opinión tan sólo debemos justificar nuestras posturas con solidez para poder tener verdaderos debates, aunque también ignorar las críticas sin significado (una vez hayan sigo analizadas). Cuestionar lo que nos permite cuestionar es un ejercicio inútil y contradictorio y, la cruda realidad es que el mundo avanza gracias a estos pilares tan cuestionados.
 
 
-[^nota1]: La interpretación semántica de la lógica *difusa* puede ser distinta. [Algunos autores](http://eecs.berkeley.edu/~zadeh/papers/Is%20there%20a%20need%20for%20fuzzy%20logic.pdf) sugieren que la lógica difusa debe interpretarse como la probabilidad de que una proposición sea cierta.
+[^nota1]: La interpretación semántica de la lógica *difusa* puede ser distinta. [Algunos autores](http://nafips.ece.ualberta.ca/nafips08/docs/Zadeh_NAFIPS08.pdf "Is There a Need For Fuzzy Logic?") sugieren que la lógica difusa debe interpretarse como la probabilidad de que una proposición sea cierta.
 
 [^nota2]: Si quieres leer algo más sobre la critica hegeliana al principio de identidad, puedes hacerlo [aquí](http://proyectohermeneutica.org/pdf/conferencias/jr_rosales.pdf). En mi opinión no es más que verborrea sin sentido, pero hay gente para todo, vaya.

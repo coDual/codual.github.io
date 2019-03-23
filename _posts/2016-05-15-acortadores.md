@@ -27,7 +27,7 @@ Pero este no es el principal problema de los acortadores.
 
 Es muy sencillo explorar las URLs que existen en un determinado servicio generándolas aleatoriamente. Además, algunos acortadores no generan las URLs uniformemente[^uniforme], lo que puede permitirnos encontrar URLs que funcionen más fácilmente.
 
-[^uniforme]: [**Security and Privacy Implications of URL Shortening Services** - Alexander Neumann, Johannes Barnickel, Ulrike Meyer](http://w2spconf.com/2011/papers/urlShortening.pdf)
+[^uniforme]: [**Security and Privacy Implications of URL Shortening Services** - Alexander Neumann, Johannes Barnickel, Ulrike Meyer](https://web.archive.org/web/20171215134500/http://w2spconf.com/2011/papers/urlShortening.pdf)
 
 Justo esto es lo que hicieron Martin Georgiev y Vitaly Shmatikov en [Gone in Six Characters: Short URLs Considered Harmful for Cloud Services](http://arxiv.org/pdf/1604.02734v1.pdf). Los investigadores generaron URLs para Bitly, Google Maps, OneDrive y otros servicios. Aunque sólo escanearon un pequeño porcentaje de las URLs del espacio completo[^espacio] encontraron unos 60 millones de URLs existentes.
 
