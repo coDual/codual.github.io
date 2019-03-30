@@ -1,5 +1,5 @@
 # Dependencies
-gems:
+plugins:
  - jekyll-coffeescript
  - jekyll-paginate
  - jekyll-feed
