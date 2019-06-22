@@ -1,3 +1,3 @@
 # coDual
 
-Un blog de @M42 y @mx-psi
+Un blog de @mx-psi, originalmente creado en colaboración con @mroman42.
