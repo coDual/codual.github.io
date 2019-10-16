@@ -47,11 +47,10 @@ SuperMemo (una software para repetición espaciada) incluye [una lista bastante 
 - **Utiliza el tipo de tarjeta más adecuado** La mayor parte de los sistemas de repetición espaciada tienen distintos tipos de tarjetas: como mínimo hay tarjetas clásicas (una pregunta y una respuesta), tarjetas que pueden invertirse (se muestra un lado y debes responder el otro) y tarjetas con huecos ([*cloze deletion*](https://en.wikipedia.org/wiki/Cloze_test)). También puedes emplear (si quieres emplear el tiempo necesario) imágenes o diagramas con huecos para completar. Ten en cuenta también que [no todos los tipos de tarjetas son igual de efectivos](https://www.gwern.net/Spaced%20repetition#review-summary).
 - **Incluye todo el contexto**. Por ejemplo, para aprender que *agua* se dice *akvo* en esperanto deberías tener una tarjeta en cada dirección[^invertida]: una en la que se te pregunte por la traducción de *agua* y otra en la que se te pregunte por la traducción de *akvo*.
 - **Divide la información lo más posible**: La repetición espaciada funciona mejor si no tienes grandes cantidades de información que responder de una sóla vez. Si puedes dividir una tarjeta en dos independientes será más fácil aprender cada contenido. Evita además las listas demasiado largas (en mí caso más de 5 elementos suele resultar más difícil de memorizar)
-- **Sé consistente**: Si tienes que hacer tarjetas sobre un tema parecido, evita dar información extra que te haga saber de qué tarjeta se trata. Si quieres aprender que *Los escarabajos tienen 6 patas*[^cencia] y *Las arañas tienen 8 patas* haz tarjetas de la forma *[…] tienen 6 patas* ocultando el artículo para que el género de la palabra del hueco no te de información.
+- **Sé consistente**: Si tienes que hacer tarjetas sobre un tema parecido, evita dar información extra que te haga saber de qué tarjeta se trata. Si quieres aprender que *Los escarabajos tienen 6 patas* y *Las arañas tienen 8 patas* haz tarjetas de la forma *[…] tienen 6 patas* ocultando el artículo para que el género de la palabra del hueco no te de información.
 - **Evita ambigüedades**: Debe ser claro sobre qué estás preguntando sin que tengas que dar información extra. Dos tarjetas con un título muy parecido pueden llevar a confusión y hacerte perder el tiempo. Si una pregunta tiene varias respuestas válidas posibles inclúyelas si ves que es relevante.
 
 [^invertida]: Anki [dispone de un tipo de tarjeta](http://ankisrs.net/docs/manual.html#reverse-cards) (*Básica e invertida*) que genera automáticamente una tarjeta en cada dirección.
-[^cencia]: [@Yeholon](https://twitter.com/yeholon) 2016b
 
 
 # Cuándo hacer las tarjetas
@@ -75,15 +74,18 @@ En el caso de utilizar tarjetas para memorizar cosas sobre matemáticas (el prin
 
 [^sii]: Para evitar distinguir si la respuesta es *si y sólo si* o una implicación escribe las implicaciones de la forma *P implica [que] Q*.
 
-Para escribir fórmulas anki utiliza LaTeX como soporte para escribir matemáticas. Para instalarlo y utilizarlo puedes seguir [esta guía](http://libreim.github.io/blog/2015/03/14/latex). Necesitas además instalar el paquete `dvipng`.
+Para escribir fórmulas Anki utiliza [MathJax](https://www.mathjax.org/) como soporte para escribir matemáticas[^antiguo].
+Para utilizarlo puedes seguir [esta guía](http://libreim.github.io/blog/2015/03/14/latex).
 
-Puedes incluir cualquier tipo de código LaTeX en tus tarjetas como fórmulas, diagramas o tablas. El caso de uso más frecuente son las fórmulas. Para insertarlas puedes teclear `Ctrl`+`T`,`E` (para fórmulas en medio de texto) o `Ctrl`+`T`,`M` (para fórmulas con su propia línea) o utilizar la sintaxis que ves debajo.
+[^antiguo]: Este método sólo está disponible si utilizas Anki 2.1 o superior. En otro caso tendrás que utilizar LaTeX y dvipng siguiendo [esta guía](https://apps.ankiweb.net/docs/manual.html#latex-support). La sintaxis para escribir las tarjetas cambia ligeramente, pero puedes hacerte una idea con este artículo
+
+Puedes incluir cualquier tipo de código LaTeX en tus tarjetas como fórmulas, diagramas o tablas. El caso de uso más frecuente son las fórmulas. Para insertarlas puedes teclear `Ctrl`+`M`,`E` (para fórmulas en medio de texto) o `Ctrl`+`M`,`M` (para fórmulas con su propia línea) o utilizar la sintaxis que ves debajo.
 
 Por ejemplo, si queremos hacer una tarjeta con la fórmula de la suma de series geométricas pondríamos:
 
 ```
-La suma de los [$]n[/$] primeros términos de una progresión geométrica de razón [$]r[/$] con primer término [$]a[/$] es:
-[$$]\sum_{k=0}^{n-1} ar^k= a \, \frac{1-r^{n}}{1-r}[/$$]
+La suma de los \(n\) primeros términos de una progresión geométrica de razón \(r\) con primer término \(a\) es:
+\[\sum_{k=0}^{n-1} ar^k= a \, \frac{1-r^{n}}{1-r}\]
 ```
 
 Y obtendríamos una tarjeta con texto:
