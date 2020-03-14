@@ -53,9 +53,10 @@ body {
 #title{
   font-family: "Open Sans", sans-serif;
   font-size: larger;
+  color: #555;
 }
 
-nav > a{
+nav > li > a{
   color: #555;
 }
 
@@ -65,7 +66,8 @@ nav{
   justify-content: space-between;
 }
 
-.nav-item{
+nav > li{
+  list-style: none;
   font-weight: bold;
   margin-top: 5px;
 }
@@ -338,6 +340,10 @@ input::-webkit-inner-spin-button {
   color: brown;
   font-size: larger;
   padding-bottom: 1rem;
+}
+
+.list-date::before{
+  content="»";
 }
 
 .list-date {
