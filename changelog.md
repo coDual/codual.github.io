@@ -6,6 +6,11 @@ hidden: true
 
 This website was last updated at {{ "now" | date: "%Y-%m-%d %H:%M" }} GMT.
 
+## `02020-03-15`
+
+- Minor changes to update the template code to HTML5
+- Preparation for dark theming
+
 ## `02018-06-28`
 
 - Minor style changes to make the page useful in both English and Spanish
