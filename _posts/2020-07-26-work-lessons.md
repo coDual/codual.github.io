@@ -3,6 +3,7 @@ title: "Cómo ser ingeniero de software: una perspectiva personal"
 authors: [psi]
 tags: [guía]
 lang: es
+description: Una guía sobre cómo es el proceso para obtener un trabajo como ingeniero de software
 ---
 
 Estas notas intentan reunir algunas cosas que me habría gustado saber antes de empezar a buscar trabajo como ingeniero de software. Las escribí para unos pocos amigxs pero he pensado que podría ser útil a otras personas.
@@ -80,7 +81,7 @@ Proyectos para hacer por tu cuenta (_take-home_)
 : Proyectos más largos para resolver un cierto problema de programación. Pueden llevar de unas horas a varios días. Suelen hacerse en una fase más avanzada pero a veces son el primer paso (en cuyo caso a lo mejor merece menos la pena hacerlos si llevan mucho tiempo). Su intención es evaluar cómo programas en un entorno más realista. A veces se acompañan por una entrevista posterior en la que discutir la solución. Asegúrate de testearlo todo y usa linters y warnings para evitar errores tontos. Raramente son pagados a menos que sean trabajo real; asegúrate de licenciarlos adecuadamente para evitar estar trabajando gratis.
 
 Diseño de sistemas
-: Discusiones sobre cómo diseñar a grandes rasgos un programa, gestionar los errores, testearlo, dividirlo en partes que sean mantenibles... Es útil ver qué tipos de problemas resuelve la empresa porque te van a preguntar cosas del campo. No he llegado a encontrar ningún material online que me convenza mucho para prepararse.
+: Discusiones sobre cómo diseñar a grandes rasgos un programa, gestionar los errores, testearlo, dividirlo en partes que sean mantenibles… Es útil ver qué tipos de problemas resuelve la empresa porque te van a preguntar cosas del campo. No he llegado a encontrar ningún material online que me convenza mucho para prepararse.
 
 Entrevistas de comportamiento
 : Preguntas como: ¿Te gusta trabajar solx o en equipo? ¿Cómo te describirías? ¿Cómo lidias con el conflicto? Puedes encontrar fácilmente listados de preguntas de este estilo, el objetivo es asegurarse de que eres una personas con la que es agradable y viable trabajar.
