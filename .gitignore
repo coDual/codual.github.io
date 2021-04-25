@@ -2,3 +2,7 @@ _site/
 _drafts/
 .sass-cache/
 .jekyll-metadata
+.bundle/
+.bundler/
+.vscode/
+.logger_timestamp
