@@ -16,8 +16,17 @@ jobs:
       - name: Check links
         uses: lycheeverse/lychee-action@v1.0.8
         with:
-          # Exclude StackOverflow since they have very aggressive rate-limiting
-          args: --exclude ".*stackexchange.com.*" --exclude ".*stackoverflow.com.*" --github-token "${{secrets.GITHUB_TOKEN}}" --verbose --no-progress -- **/*.md **/*.html
+          # Exclude pages with aggressive rate-limiting
+          # also exclude my username on Mastodon :)
+          args: >
+           --exclude ".*stackexchange.com.*" 
+           --exclude ".*stackoverflow.com.*"
+           --exclude ".*mathoverflow.com.*" 
+           --exclude ".*archive.is.*"
+           --exclude "mx_psi@mstdn.io"
+           --github-token "${{secrets.GITHUB_TOKEN}}"
+           --base-url "https://codual.github.io/" 
+           --verbose --no-progress -- **/*.md **/*.html
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
         
