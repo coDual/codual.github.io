@@ -14,7 +14,7 @@ Elsevier ~~aka El Mal~~ [ha comprado SSRN](https://www.elsevier.com/connect/ssrn
 
 [**Why you should never spank a child - major research project confirms dangers**](http://www.telegraph.co.uk/science/2016/04/26/why-you-should-never-spank-a-child---major-research-project-conf)
 
-Un metanálisis con n > 160000 concluye que recibir castigos corporales siendo niño tiene (como [ya sabíamos](https://en.wikipedia.org/wiki/Corporal_punishment_in_the_home#Effects_on_behaviour_and_development)) correlación positiva con comportamiento antisocial, agresividad y problemas de enfermedad mental. En España los castigos corporales son delito [desde el año 2007](http://www.endcorporalpunishment.org/progress/country-reports/spain.html). :clock2:: < 5m
+Un metanálisis con n > 160000 concluye que recibir castigos corporales siendo niño tiene (como [ya sabíamos](https://en.wikipedia.org/wiki/Corporal_punishment_in_the_home#Effects_on_behaviour_and_development)) correlación positiva con comportamiento antisocial, agresividad y problemas de enfermedad mental. En España los castigos corporales son delito [desde el año 2007](http://www.endcorporalpunishment.org/wp-content/uploads/country-reports/Spain.pdf). :clock2:: < 5m
 
 [**Can Gender-Fair Language Reduce Gender Stereotyping and Discrimination?**](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4735429)
 
