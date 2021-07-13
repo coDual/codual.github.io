@@ -252,6 +252,7 @@ GEM
 
 PLATFORMS
   ruby
+  x86_64-linux
 
 DEPENDENCIES
   ffi (>= 1.9.24)
@@ -260,4 +261,4 @@ DEPENDENCIES
   nokogiri (>= 1.8.5)
 
 BUNDLED WITH
-   2.1.4
+   2.2.23
