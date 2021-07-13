@@ -25,7 +25,6 @@ jobs:
            --exclude ".*archive.is.*"
            --exclude "mx_psi@mstdn.io"
            --github-token "${{secrets.GITHUB_TOKEN}}"
-           --base-url "https://codual.github.io/" 
            --verbose --no-progress -- **/*.md **/*.html
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
