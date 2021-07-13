@@ -6,6 +6,10 @@ hidden: true
 
 This website was last updated at {{ "now" | date: "%Y-%m-%d %H:%M" }} GMT.
 
+## `02021-07-13`
+
+- Added support for comments through [giscus](https://giscus.app/).
+
 ## `02020-03-15`
 
 - Minor changes to update the template code to HTML5
