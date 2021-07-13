@@ -26,6 +26,6 @@ Los procesadores Intel recientes ocultan una CPU alternativa que puede ejecutars
 
 Matters es una revista científica que revisa y publica observaciones únicas en lugar de estudios completos. Intenta aliviar la presión por publicar la historia completa y coherente que suele requerir un artículo. :clock2:: 6m
 
-[**Addiction**](https://www.youtube.com/watch?v=ao8L-0nSYzg)
+**Addiction**
 
-Cómo la visión tradicional de la adicción nos lleva a combatirla de forma equivocada y cómo nuestra lucha contra las drogas sólo está agravando el problema. :clock2:: 6m
+*Este vídeo fue eliminado por sus autores.*
