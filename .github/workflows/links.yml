@@ -23,9 +23,10 @@ jobs:
            --exclude ".*stackoverflow.com.*"
            --exclude ".*mathoverflow.com.*" 
            --exclude ".*archive.is.*"
-           --exclude "mx_psi@mstdn.io"
+           --exclude-mail
+           --insecure
+           --exclude ".*patreon.com.*"
            --github-token "${{secrets.GITHUB_TOKEN}}"
-           --base-url "https://codual.github.io/" 
            --verbose --no-progress -- **/*.md **/*.html
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}

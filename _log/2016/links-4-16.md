@@ -12,7 +12,7 @@ tags: [links]
 ¿Cómo se modera el contenido en Internet?
 Contiene descripciones de violencia gráfica y abusos. :clock2:: 45m
 
-[**The harsh truth about speed-reading**](http://kernelmag.dailydot.com/issue-sections/features-issue-sections/16352/speed-reading-does-not-work/)
+[**The harsh truth about speed-reading**](https://web.archive.org/web/20181201073339/https://kernelmag.dailydot.com/issue-sections/features-issue-sections/16352/speed-reading-does-not-work/)
 
 El *speed-reading* no funciona.
 [Relacionado](http://www.nytimes.com/2016/04/17/opinion/sunday/sorry-you-cant-speed-read.html).

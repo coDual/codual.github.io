@@ -54,7 +54,7 @@ Las leyes deben diseñarse para maximizar la probabilidad de que se cumplan nues
 
 [^util]: Por ejemplo, podemos tener como objetivo maximizar los [QALYs](//en.wikipedia.org/wiki/Quality-adjusted_life_year).
 
-[^suic]: [Prevención del suicidio un imperativo global](http://apps.who.int/iris/bitstream/10665/136083/1/9789275318508_spa.pdf?ua=1), página 16
+[^suic]: [Prevención del suicidio un imperativo global](https://www.who.int/publications/i/item/9789241564779), página 16
 
 # Aproximaciones
 
@@ -99,8 +99,8 @@ Desajustes entre el modelo de libre mercado naïve y la realidad:
     - Racionalidad
     - Enfermedades
 - Utilidad marginal del dinero: si la riqueza estuviera repartida de forma más equitativa la utilidad sería mayor ya que la relación dinero-utilidad es logarítmica
-- La "libertad" que proporciona un mercado libre sólo puede darse si existen precondiciones (nutrición, vivienda, salud...)
+- La "libertad" que proporciona un mercado libre sólo puede darse si existen precondiciones (nutrición, vivienda, salud…)
 
 ## Relacionado
 
-- [The NonLibertarian FAQ](http://raikoth.net/libertarian.html)
+- [The NonLibertarian FAQ](https://slatestarcodex.com/2017/02/22/repost-the-non-libertarian-faq/)

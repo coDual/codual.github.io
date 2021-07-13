@@ -44,7 +44,7 @@ Algunos de los argumentos contra esta justificación y contraargumentos a estos 
 
 La **lógica inductiva** es uno de los grandes proyectos de algunos empiristas como Carnap o Maher. Consiste en la creación de una teoría que permita asignar una probabilidad a una hipótesis dada una cierta evidencia. Algunos artículos y libros que explican qué es y los avances realizados son:
 
-- [**The Two Concepts of Probability**](https://sci-hub.tw/10.2307/2102817)
+- [**The Two Concepts of Probability**](https://sci-hub.st/10.2307/2102817)
 - :books:  [**What is Probability?**](http://patrick.maher1.net/preprints/pop.pdf). Libro inacabado sobre los distintos conceptos de probabilidad y su evolución
 - [Inductive Logic](http://plato.stanford.edu/entries/logic-inductive) y  [Confirmation](http://plato.stanford.edu/entries/confirmation) para una discusión más extensa sobre el concepto.
 

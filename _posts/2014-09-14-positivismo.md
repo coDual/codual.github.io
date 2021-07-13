@@ -16,7 +16,7 @@ No he revisado el contenido y es posible que no esté de acuerdo parcial o total
 El positivismo lógico es una corriente filosófica del siglo XX, que
 evolucionó del empirismo inglés. Con frecuencia descubro discusiones en
 Internet sobre este movimiento, y muchas de estas discusiones acaban
-afirmando que el positivismo lógico [se refuta a sí mismo](http://www.phy.duke.edu/~rgb/Philosophy/axioms/axioms/node45.html "Why Logical Positivism is Bullshit") o
+afirmando que el positivismo lógico [se refuta a sí mismo](https://webhome.phy.duke.edu/~rgb/Philosophy/axioms/axioms/Why_Logical_Positivism.html "Why Logical Positivism is Bullshit") o
 que es incorrecto por razones que, en mi opinión, resultan de tener una
 idea equivocada de lo que esta postura defiende. Es probable que este
 artículo tenga alguna incorrección, pero creo que sirve para dar una
@@ -29,7 +29,7 @@ el [Círculo de Viena](http://plato.stanford.edu/entries/vienna-circle/ "Vienna 
 Los primeros positivismos se centraban en la *unidad de la ciencia*: la
 idea de que no existían las ciencias *especiales*, en oposición a la
 tradicional división entre ciencias naturales y ciencias espirituales
-(sociología, psicología...). Esta unidad de la ciencia derivó después en
+(sociología, psicología…). Esta unidad de la ciencia derivó después en
 el desarrollo de varios principios y distinciones, siempre con un
 enfoque en la exaltación de la ciencia como método único para obtener
 conocimiento:
