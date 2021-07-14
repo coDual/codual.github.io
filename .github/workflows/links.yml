@@ -23,9 +23,11 @@ jobs:
            --exclude ".*stackoverflow.com.*"
            --exclude ".*mathoverflow.com.*" 
            --exclude ".*archive.is.*"
+           --exclude ".*patreon.com.*"
+           --exclude ".*texample.net.*"
            --exclude-mail
            --insecure
-           --exclude ".*patreon.com.*"
+           --timeout 40
            --github-token "${{secrets.GITHUB_TOKEN}}"
            --verbose --no-progress -- **/*.md **/*.html
         env:
