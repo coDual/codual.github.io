@@ -50,7 +50,7 @@ La historia de una activista contra los transgénicos en la India y de los efect
 transgénicos en las vidas de los agricultores de la India.
 :clock2:: 41m
 
-[**“I Want to Know What Code Is Running Inside My Body”**](https://backchannel.com/i-want-to-know-what-code-is-running-inside-my-body-ff9a159da34b)
+[**“I Want to Know What Code Is Running Inside My Body”**](https://www.wired.com/2016/02/i-want-to-know-what-code-is-running-inside-my-body/)
 
 Una defensa del uso del software libre en los marcapasos y otros implantes.
 :clock2:: 5m

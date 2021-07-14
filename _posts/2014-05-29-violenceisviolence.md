@@ -14,7 +14,7 @@ No he revisado el contenido y es posible que no esté de acuerdo parcial o total
 
 Hace una semana, la [Iniciativa Mankind](http://www.mankind.org.uk/ "Mankind Initiative"), publicó [este vídeo](http://www.youtube.com/watch?v=u3PgH86OyEM).
 El vídeo se ha extendido viralmente y tiene más de 5 millones de
-visitas. A raíz de una serie de [conversaciones](https://twitter.com/510nm/status/471916392317345792 "Conversación I")[en Twitter](https://twitter.com/510nm/status/471917594786553858 "Conversación II")
+visitas. A raíz de una serie de conversaciones en Twitter
 me pareció interesante recopilar las razones por las que la campaña
 probablemente sea un montaje, y por qué la estadística que aparece al
 final del video también es engañosa.
@@ -43,9 +43,11 @@ situaciones de acoso, amenazas etc. ejercidas por "pareja o familia". Es
 decir, que aquí se cuenta la violencia de padres a hijos, la violencia
 en parejas no heterosexuales y, en general, las agresiones recibidas por
 un familiar, que son un conjunto mucho más amplio al de la violencia
-mujer-hombre. Además, [otras estadísticas](http://t.co/Rr0aVd3n6m) (compartidas por [@<span class="u-linkComplex-target">Doszak</span>](https://twitter.com/Judg2/status/471941040556236800) o [estas](https://twitter.com/laguiri/status/472686818518138880)compartidas por [@laguiri](https://twitter.com/laguiri)), parecen negar lo que afirma el vídeo: la violencia de hombres a mujeres es mucho más frecuente que la inversa.
+mujer-hombre. Además, otras estadísticas[^link] (compartidas por [@<span class="u-linkComplex-target">Doszak</span>](https://twitter.com/Judg2/status/471941040556236800) o estas[^link]compartidas por [@laguiri](https://twitter.com/laguiri)), parecen negar lo que afirma el vídeo: la violencia de hombres a mujeres es mucho más frecuente que la inversa.
 
 **TL;DR** El vídeo es engañoso y pretende apoyarse en estadísticas que
 no afirman lo que aparece al final de éste. La organización detrás del
 vídeo parece tener intenciones antifeministas que niegan la
 discriminación y opresión que sufren las mujeres.
+
+[^link]: El link no está disponible

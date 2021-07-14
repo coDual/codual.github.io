@@ -58,7 +58,7 @@ a través de la cual presenta su argumento.
 No voy a exponer este argumento porque mis conocimientos de lógica modal no son los
 suficientes como para hacerlo, pero si queréis entender la prueba os
 remito a la entrada sobre la misma de [Francis](http://francis.naukas.com/2013/11/03/la-demostracion-de-godel-de-la-existencia-de-dios "La demostración de Gödel de la existencia de Dios"),
-en Naukas o a la de [Christopher Small](http://sas.uwaterloo.ca/~cgsmall/ontology.html "Kurt Gödel's Ontological Argument").
+en Naukas o a la de [Christopher Small](https://web.archive.org/web/20130422043126/http://sas.uwaterloo.ca/~cgsmall/ontology.html "Kurt Gödel's Ontological Argument").
 
 Basta decir que esta prueba evita los razonamientos circulares y no
 define la existencia como una propiedad (crítica que realiza Kant), sino
