@@ -13,7 +13,7 @@ jobs:
       - uses: actions/checkout@v2
 
       - name: Check links
-        uses: lycheeverse/lychee-action@v1.0.9
+        uses: lycheeverse/lychee-action@v1.2.0
         with:
           # Exclude pages with aggressive rate-limiting
           # also exclude my username on Mastodon :)
