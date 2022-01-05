@@ -12,6 +12,17 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
+      - name: Cache Ruby dependencies
+        uses: actions/cache@v1
+        with:
+          path: vendor/bundle
+          key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-gems-
+
+      - name: Build site
+        uses:  lemonarc/jekyll-action@1.0.0
+
       - name: Check links
         uses: lycheeverse/lychee-action@v1.2.0
         with:
@@ -26,9 +37,9 @@ jobs:
            --exclude ".*texample.net.*"
            --exclude-mail
            --insecure
-           --timeout 40
+           --timeout 60
            --github-token "${{secrets.GITHUB_TOKEN}}"
-           --verbose --no-progress -- **/*.md **/*.html
+           --verbose --no-progress -- _site/**/*.html
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
 
