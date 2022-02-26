@@ -21,7 +21,7 @@ jobs:
             ${{ runner.os }}-gems-
 
       - name: Build site
-        uses:  lemonarc/jekyll-action@2.0.1
+        uses:  lemonarc/jekyll-action@1.0.0
 
       - name: Check links
         uses: lycheeverse/lychee-action@v1.2.0
