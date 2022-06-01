@@ -24,7 +24,7 @@ jobs:
         uses:  lemonarc/jekyll-action@1.0.0
 
       - name: Check links
-        uses: lycheeverse/lychee-action@v1.3.2
+        uses: lycheeverse/lychee-action@v1.5.0
         with:
           # Exclude pages with aggressive rate-limiting
           # also exclude my username on Mastodon :)
