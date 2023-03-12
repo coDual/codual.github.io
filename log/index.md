@@ -9,6 +9,7 @@ The log is an ongoing project to register (*log*) on a frequent basis things tha
 
 Here you can read the full logs from the years in which I have recorded something:
 
+- [<span class="year">2023</span>](2023)
 - [<span class="year">2022</span>](2022)
 - [<span class="year">2021</span>](2021)
 - [<span class="year">2020</span>](2020)
