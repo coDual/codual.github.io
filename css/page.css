@@ -19,7 +19,7 @@ html {
   -moz-osx-font-smoothing: grayscale;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  background-image: url("topography.png"); /*subtle patterns*/
+  background-image: url("topography.png");
   background-attachment: fixed;
   background-repeat: repeat;
 }
@@ -29,10 +29,11 @@ body {
   background-color: #fff;
   padding: 1em 2em;
   max-width: 55em;
+  box-shadow: 0px 4px 10px #777777;
 }
 
 @media (min-width: 55em) {
-  body{
+  body {
     border-radius: 8px;
     padding: 1em 4em;
     margin-top: 1.2em;
@@ -40,7 +41,7 @@ body {
   }
 }
 
-#logo{
+#logo {
   width: 1.6em;
   vertical-align: middle;
   transition: transform 0.5s ease-out;
@@ -50,32 +51,35 @@ body {
   transform: rotate(115deg);
 }
 
-#title{
+#title {
   font-family: "Open Sans", sans-serif;
   font-size: larger;
   color: #555;
 }
 
-nav > li > a{
+nav>li>a {
   color: #555;
 }
 
-nav{
+nav {
+  font-family: "Fjalla One", serif;
   height: 2em;
   display: flex;
   justify-content: space-between;
 }
 
-nav > li{
+nav>li {
   list-style: none;
   font-weight: bold;
   margin-top: 5px;
 }
 
-.active{ color: #c1292e; }
+.active {
+  color: #c1292e;
+}
 
 
-footer{
+footer {
   text-align: center;
   font-size: smaller;
   color: #909090;
@@ -96,8 +100,15 @@ a:focus {
 }
 
 /* Headings */
-h1, h2, h3, h4, h5, h6 {
-  margin-bottom: .5rem;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Fjalla One", serif;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
   font-weight: bold;
   line-height: 1.25;
   color: #313131;
@@ -111,7 +122,9 @@ strong {
 }
 
 /* Lists */
-ul, ol, dl {
+ul,
+ol,
+dl {
   margin-top: 0;
   margin-bottom: 1rem;
 }
@@ -119,6 +132,7 @@ ul, ol, dl {
 dt {
   font-weight: bold;
 }
+
 dd {
   margin-bottom: .5rem;
 }
@@ -136,20 +150,20 @@ hr {
 /* De libreim */
 
 .ejercicio {
-	background: #f6f6f6;
-	border: 1px solid #d0d0d0;
-	overflow-x: auto;
-	margin: 0 0 1rem;
-	padding: 0.6rem;
+  background: #f6f6f6;
+  border: 1px solid #d0d0d0;
+  overflow-x: auto;
+  margin: 0 0 1rem;
+  padding: 0.6rem;
 }
 
 .ejercicio summary {
-	cursor: pointer;
-	outline: none;
+  cursor: pointer;
+  outline: none;
 }
 
 .ejercicio summary p {
-	display: inline;
+  display: inline;
 }
 
 
@@ -158,6 +172,7 @@ code,
 pre {
   font-family: Menlo, Monaco, "Courier New", monospace;
 }
+
 code {
   padding: .25em .5em;
   font-size: 85%;
@@ -165,6 +180,7 @@ code {
   background-color: #f9f9f9;
   border-radius: 3px;
 }
+
 pre {
   display: block;
   padding: 1rem;
@@ -175,6 +191,7 @@ pre {
   word-wrap: break-word;
   background-color: #f9f9f9;
 }
+
 pre code {
   padding: 0;
   font-size: 100%;
@@ -189,9 +206,11 @@ blockquote {
   color: #7a7a7a;
   border-left: .25rem solid #e5e5e5;
 }
+
 blockquote p:last-child {
   margin-bottom: 0;
 }
+
 @media (min-width: 30em) {
   blockquote {
     padding-right: 5rem;
@@ -212,11 +231,13 @@ table {
   border: 1px solid #e5e5e5;
   border-collapse: collapse;
 }
+
 td,
 th {
   padding: .25rem .5rem;
   border: 1px solid #e5e5e5;
 }
+
 tbody tr:nth-child(odd) td,
 tbody tr:nth-child(odd) th {
   background-color: #f9f9f9;
@@ -254,10 +275,15 @@ tbody tr:nth-child(odd) th {
 .post-title a {
   color: #c1292e;
 }
+
 .page-title,
 .post-title {
-  font-size: larger;
   margin-top: 0;
+}
+
+h1.post-title {
+  font-size: 250%;
+  font-weight: 800;
 }
 
 .post-tags a {
@@ -265,7 +291,7 @@ tbody tr:nth-child(odd) th {
 }
 
 header {
-  padding: 3vw 2em;
+  padding: 1vw 2em;
   text-align: center;
 }
 
@@ -277,7 +303,8 @@ header {
  */
 
 .pagination {
-  overflow: hidden; /* clearfix */
+  overflow: hidden;
+  /* clearfix */
   color: #ccc;
   text-align: center;
 }
@@ -289,6 +316,7 @@ header {
   float: left;
   width: 50%;
 }
+
 .pagination-item:first-child {
   margin-bottom: -1px;
 }
@@ -298,31 +326,31 @@ a.pagination-item:hover {
   background-color: #f5f5f5;
 }
 
-.footnotes{
+.footnotes {
   margin-top: 2rem;
   padding-top: 2rem;
   clear: both;
   border-top: 1px solid #eee;
 }
 
-.sharing{
+.sharing {
   padding-top: 1rem;
 }
 
 /** Interactive **/
 
 .interactive,
-input[type=number]{
+input[type=number] {
   font-weight: 600;
   color: brown;
 }
 
-input[type=number]{
+input[type=number] {
   width: 32px;
   text-align: right;
   font-size: large;
   border: 0px;
-  -moz-appearance:textfield;
+  -moz-appearance: textfield;
 }
 
 
@@ -331,18 +359,18 @@ input::-webkit-inner-spin-button {
   -webkit-appearance: none;
 }
 
-.standalone > input[type=number]{
+.standalone>input[type=number] {
   width: 20rem;
   font-size: x-large;
 }
 
-.standalone{
+.standalone {
   color: brown;
   font-size: larger;
   padding-bottom: 1rem;
 }
 
-.list-date::before{
+.list-date::before {
   content="»";
 }
 
@@ -351,7 +379,7 @@ input::-webkit-inner-spin-button {
   padding-right: 0.3em;
 }
 
-.list-description{
+.list-description {
   margin-left: 1em;
 }
 

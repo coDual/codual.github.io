@@ -12,18 +12,23 @@
   <title>{% if page.title != "Home" %}{{ page.title }} - {% endif %}{{ site.title }}</title>
 
   <!--Twitter-->
-  <meta name="twitter:card" content="summary"/>
-  <meta name="twitter:creator" content="@mx_psi"/>
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:creator" content="@mx_psi" />
   <meta name="twitter:site" content="@mx_psi" />
-  <meta name="og:url" content="{{ site.url }}{{ page.url }}"/>
-  <meta name="og:title" content="{% if page.title == "Home" %}{{ site.title }}{% else %}{{ page.title }}{% endif %}"/>
-  <meta name="og:image" content="{{ site.url }}/public/logo.png"/>
-  <meta name="og:description" content="{{ page.description }}"/>
+  <meta name="og:url" content="{{ site.url }}{{ page.url }}" />
+  <meta name="og:title" content="{% if page.title == " Home" %}{{ site.title }}{% else %}{{ page.title }}{% endif %}" />
+  <meta name="og:image" content="{{ site.url }}/public/logo.png" />
+  <meta name="og:description" content="{{ page.description }}" />
 
   <!-- CSS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/css/page.css">
-  {% if page.code %} <link rel="stylesheet" href="/css/syntax.css">{% endif %}
-  {% if page.layout == 'post' %}<link rel="stylesheet" href="/css/sharing.css">{% endif %}
+  {% if page.code %}
+  <link rel="stylesheet" href="/css/syntax.css">{% endif %}
+  {% if page.layout == 'post' %}
+  <link rel="stylesheet" href="/css/sharing.css">{% endif %}
 
   <!-- Icons -->
   <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/public/apple-touch-icon-144-precomposed.png">
@@ -34,7 +39,8 @@
 
   {% if page.math %}
   <!--MathJax-->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML&locale=es" type="text/javascript"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML&locale=es"
+    type="text/javascript"></script>
 
   <script type="text/x-mathjax-config">
     MathJax.Hub.Config({
