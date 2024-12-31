@@ -6,6 +6,12 @@ hidden: true
 
 This website was last updated at {{ "now" | date: "%Y-%m-%d %H:%M" }} GMT.
 
+## `0204-12-31`
+
+- Use prettier font for titles.
+- Drop support for social sharing.
+- Drop support for comments.
+
 ## `02021-07-13`
 
 - Added support for comments through [giscus](https://giscus.app/).
